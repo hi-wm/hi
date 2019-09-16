@@ -18,7 +18,7 @@
 
 * 
 * cushman 8266 Add button to Insights page render
-
+---
 # 9/13
 
 `<!-- Work Items -->`
@@ -27,7 +27,7 @@
 * cushman 6058 Subscribe CTA - broken ::before && ::after - had to define pseudo element translateX positioning for devices below XS breakpoint
 * cushman 6462 Hero Search Input Size - updated width of search field, had initially placed the fix in the wrong file... specificity broke the 'fix', now it is fixed
 * cushman 7186 Multimedia Search Results Page - fix from yesterday has been pushed to QA, but the modal open mask covers the entire page now. CoveoSearchInterface put a z-index on the wrapper which overrode the modal z-index.
-
+---
 # 9/12
 
 `<!-- Work Items -->`
@@ -35,10 +35,10 @@
 * cushman 7813 Hero Page Title Card - Fixed min-height for event of no button (an optional element)
 * cushman 7186 Multimedia Search Results Page - Continues playing on modal close fix;
 
-podcasts were broken because BED did not use the unique classnames set for the two different podcast sources
+`podcasts were broken because BED did not use the unique classnames set for the two different podcast sources
 
-videos were broken because Coveo loads after the video modal JS is init, added: if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; && if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); }; <-- triggers if element is found
-
+videos were broken because Coveo loads after the video modal JS is init, added: if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; && if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); }; <-- triggers if element is found`
+---
 # 9/11
 
 Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'
