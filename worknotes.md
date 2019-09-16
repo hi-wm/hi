@@ -16,7 +16,7 @@
 
 `<!-- Work Items -->`
 
-* 
+* cushman 8239 Lazy loading - updated waypoint offset from 66% to 80%, elements above the fold should appear more readily
 * cushman 8266 Add button to Insights page render
 
 # 9/13
