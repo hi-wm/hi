@@ -33,9 +33,11 @@ videos were broken because Coveo loads after the video modal JS is init, added: 
 
 > 9/11/19
 
-> Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'
+*Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'*
 
-```$('.coveo-query-summary-cancel-last').text('Try a different search term');```
+```javascript
+$('.coveo-query-summary-cancel-last').text('Try a different search term');
+```
 
 * cw 8047 Design and Implement CoveoQuerySummary CSS
 * cw 8068 Hero Image & Video Cards SM / XS breakpoint fix
