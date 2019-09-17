@@ -1,5 +1,5 @@
 ---
-title: {{ 'now' | date: "%Y" }}
+title: 
 ---
 [Resources](./resources.md)  
 [Worknotes](./worknotes.md)
