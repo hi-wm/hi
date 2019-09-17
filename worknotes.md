@@ -1,4 +1,18 @@
-# 9/16
+## 9/17
+
+`<!-- Resources -->`
+
+## Sitecore Experience Accelerator
+
+[Custom Component Build - Part 1 - Introduction](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Introduction)
+
+[Custom Component Build - Part 2 - Milestone 1](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Part-2)
+
+[Custom Component Build - Part 3 - Milestones 2 & 3](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Part-3)
+
+[Custom Component Build - Part 4 - Final Thoughts](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Final-Thoughts)
+
+## 9/16
 
 `<!-- Resources -->`
 
@@ -19,7 +33,7 @@
 * cushman 8239 Lazy loading - updated waypoint offset from 66% to 80%, elements above the fold should appear more readily
 * cushman 8266 Add button to Insights page render
 
-# 9/13
+## 9/13
 
 `<!-- Work Items -->`
 
@@ -28,7 +42,7 @@
 * cushman 6462 Hero Search Input Size - updated width of search field, had initially placed the fix in the wrong file... specificity broke the 'fix', now it is fixed
 * cushman 7186 Multimedia Search Results Page - fix from yesterday has been pushed to QA, but the modal open mask covers the entire page now. CoveoSearchInterface put a z-index on the wrapper which overrode the modal z-index.
 
-# 9/12
+## 9/12
 
 `<!-- Work Items -->`
 
@@ -39,7 +53,7 @@
 
 `videos were broken because Coveo loads after the video modal JS is init, added: if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; && if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); }; <-- triggers if element is found`
 
-# 9/11
+## 9/11
 
 Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'
 
