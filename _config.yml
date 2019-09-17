@@ -14,4 +14,4 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 description: Horizontal Integration Worknotes & Resources
 breadcrumbs: true
-site.site_name: Horizontal Integration Worknotes & Resources
+site.title: Horizontal Integration Worknotes & Resources
