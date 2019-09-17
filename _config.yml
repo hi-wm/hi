@@ -12,6 +12,5 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-description: Horizontal Integration Worknotes & Resources
 breadcrumbs: true
-title: Horizontal Integration Worknotes & Resources
+title: Worknotes & Resources
