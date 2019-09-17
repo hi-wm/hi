@@ -1,6 +1,5 @@
 ---
 title: William Harrison - Front End Developer at Horizontal Integration
-site_name: Resources
 ---
 
 Here are some Frontend Development resources that have proven useful
