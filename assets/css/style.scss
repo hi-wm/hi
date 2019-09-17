@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background-color: #efeeeb;
+}
+
 a {
-    color: #fb5a34;
+    color: #d1ce56;
+
+    &:hover {
+        background-color: #efeeeb;
+        color: #32363a;
+    }
 }
