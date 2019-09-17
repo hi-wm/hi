@@ -5,21 +5,21 @@ title: William Harrison - Daily Worknotes
 The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)  
 This is mostly notes related to ongoing projects
 
-> 9/17
+> 9/17/19
 
 `<!-- Work Items -->`
 
 * cw 6172 Update image specs for download asset component - generated new set of images and updated component markup
 * cw 6462 Update search field to match specs - set max-width according to spec
 
-> 9/16
+> 9/16/19
 
 `<!-- Work Items -->`
 
 * cw 8239 Lazy loading - updated waypoint offset from 66% to 80%, elements above the fold should appear more readily
 * cw 8266 Add button to Insights page render
 
-> 9/13
+> 9/13/19
 
 `<!-- Work Items -->`
 
@@ -28,7 +28,7 @@ This is mostly notes related to ongoing projects
 * cw 6462 Hero Search Input Size - updated width of search field, had initially placed the fix in the wrong file... specificity broke the 'fix', now it is fixed
 * cw 7186 Multimedia Search Results Page - fix from yesterday has been pushed to QA, but the modal open mask covers the entire page now. CoveoSearchInterface put a z-index on the wrapper which overrode the modal z-index.
 
-> 9/12
+> 9/12/19
 
 `<!-- Work Items -->`
 
@@ -38,7 +38,7 @@ This is mostly notes related to ongoing projects
 ```podcasts were broken because BED did not use the unique classnames set for the two different podcast sources
 videos were broken because Coveo loads after the video modal JS is init, added: if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; && if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); }; <-- triggers if element is found```
 
-> 9/11
+> 9/11/19
 
 Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'
 
