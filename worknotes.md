@@ -32,7 +32,8 @@ This is mostly notes related to ongoing projects
 videos were broken because Coveo loads after the video modal JS is init, added:*
 
 ```javascript
-if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; && if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); };
+if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; &&
+if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); };
 ```
 
 *triggers if element is found*
