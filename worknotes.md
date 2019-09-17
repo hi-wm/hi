@@ -1,4 +1,4 @@
-The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)\
+The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)  
 You will find some notes related to ongoing projects as well as Frontend Development resources that have proven useful 
 
 > 9/17
