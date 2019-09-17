@@ -1,5 +1,5 @@
 ---
-title: William Harrison - Frontend Resources
+title: Frontend Development Resources
 ---
 
 Here are some Frontend Development resources that have proven useful

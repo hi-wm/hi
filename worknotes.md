@@ -1,5 +1,5 @@
 ---
-title: William Harrison - Daily Worknotes
+title: Daily Worknotes
 ---
 
 The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)  

@@ -1,5 +1,5 @@
 ---
-title: William Harrison - Front End Developer at Horizontal Integration
+title: 
 ---
 [Resources](./resources.md)  
 [Worknotes](./worknotes.md)

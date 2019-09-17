@@ -13,4 +13,6 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 breadcrumbs: true
-title: Worknotes & Resources
+title: Worknotes & Frontend Development Resources
+description: Worknotes & Frontend Development Resources from William Harrison @ Horizontal Integration
+name: William Harrison
