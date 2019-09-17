@@ -53,7 +53,6 @@ You will find some notes related to ongoing projects as well as Frontend Develop
 * cw 7186 Multimedia Search Results Page - Continues playing on modal close fix;
 
 ```podcasts were broken because BED did not use the unique classnames set for the two different podcast sources
-
 videos were broken because Coveo loads after the video modal JS is init, added: if (window.YT) { $(window).trigger('youTubePlayerApiReady'); }; && if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); }; <-- triggers if element is found```
 
 > 9/11
