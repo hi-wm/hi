@@ -4,14 +4,14 @@
 @import "{{ site.theme }}";
 
 body {
-    background-color: #efeeeb;
+    background-color: #ffffff;
 }
 
 a {
     color: #d1ce56;
 
     &:hover {
-        background-color: #efeeeb;
+        background-color: #ffffff;
         color: #32363a;
     }
 }
