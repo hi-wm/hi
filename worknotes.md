@@ -15,6 +15,11 @@ You will find some notes related to ongoing projects as well as Frontend Develop
 
 [Custom Component Build - Part 4 - Final Thoughts](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Final-Thoughts)
 
+`<!-- Work Items -->`
+
+* cw 6172 Update image specs for download asset component - generated new set of images and updated component markup
+* cw 6462 Update search field to match specs - set max-width according to spec
+
 > 9/16
 
 `<!-- Resources -->`
