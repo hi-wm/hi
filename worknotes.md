@@ -1,6 +1,5 @@
 ---
-title: William Harrison - Front End Developer at Horizontal Integration
-og:site_name: Worknotes
+title: William Harrison - Daily Worknotes
 ---
 
 The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)  
