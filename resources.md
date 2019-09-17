@@ -4,7 +4,7 @@ title: William Harrison - Frontend Resources
 
 Here are some Frontend Development resources that have proven useful
 
-> 9/17
+> 9/17/19
 
 `<!-- Resources -->`
 
@@ -18,7 +18,7 @@ Here are some Frontend Development resources that have proven useful
 
 [Custom Component Build - Part 4 - Final Thoughts](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Final-Thoughts)
 
-> 9/16
+> 9/16/19
 
 `<!-- Resources -->`
 
