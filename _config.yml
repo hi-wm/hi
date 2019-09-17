@@ -12,8 +12,3 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-repository: hi-wm/hi
-
-{% for project_title in site.github.project_title %}
-  * [William Harrison - FED @ Horizontal Integration]({{ repository.html_url }})
-{% endfor %}
