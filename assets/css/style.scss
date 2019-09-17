@@ -8,14 +8,10 @@ body {
 }
 
 a {
-    color: #d1ce56;
+    color: #ffffff;
 
     &:hover {
-        background-color: #ffffff;
-        color: #32363a;
-
-        body {
-            background-color: #32363a;
-        }
+        background-color: #32363a;
+        color: #d1ce56;
     }
 }
