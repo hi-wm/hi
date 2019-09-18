@@ -20,6 +20,12 @@ summary::-webkit-details-marker {
     color: #a002df;
 }
 
-summary summary {
+details {
+    
+    details {
     margin-left: 20px;
+    }
+    summary {
+        color: #a002df;
+    }
 }
