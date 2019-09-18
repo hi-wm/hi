@@ -8,9 +8,9 @@ This is mostly notes related to ongoing projects
 <details>
 <summary>9/17/19</summary>
 
-+ cw 6472 Chapter Component - add spacing to match spec `margin-bottom: 4rem;`
-+ cw 6462 Update search field to match specs - set `max-width` according to spec
-+ cw 6172 Update image specs for download asset component - generated new set of images and updated component markup
+- cw 6472 Chapter Component - add spacing to match spec `margin-bottom: 4rem;`
+- cw 6462 Update search field to match specs - set `max-width` according to spec
+- cw 6172 Update image specs for download asset component - generated new set of images and updated component markup
 </details>
 > 9/16/19
 
