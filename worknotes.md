@@ -6,7 +6,7 @@ The purpose of this document is to keep a running record of my daily activities 
 This is mostly notes related to ongoing projects
 
 <details>
-<summary>9/17/19</summary>
+<summary>9/17/19</summary><br>
 
 - cw 6472 Chapter Component - add spacing to match spec `margin-bottom: 4rem;`
 - cw 6462 Update search field to match specs - set `max-width` according to spec
