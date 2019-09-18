@@ -5,12 +5,13 @@ title: Daily Worknotes
 The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)  
 This is mostly notes related to ongoing projects
 
-> 9/17/19
-
+<details>
+<summary>> 9/17/19</summary>
+<br>
 * cw 6472 Chapter Component - add spacing to match spec `margin-bottom: 4rem;`
 * cw 6462 Update search field to match specs - set `max-width` according to spec
 * cw 6172 Update image specs for download asset component - generated new set of images and updated component markup
-
+</details>
 > 9/16/19
 
 * cw 8239 Lazy loading - updated waypoint offset from 66% to 80%, elements above the fold should appear more readily
