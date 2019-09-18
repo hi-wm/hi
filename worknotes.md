@@ -7,6 +7,7 @@ This is mostly notes related to ongoing projects
 
 <details>
 <summary>9/17/19</summary>
+<br>
 <p>
 * cw 6472 Chapter Component - add spacing to match spec `margin-bottom: 4rem;`
 * cw 6462 Update search field to match specs - set `max-width` according to spec
@@ -16,6 +17,7 @@ This is mostly notes related to ongoing projects
 
 <details>
 <summary>9/16/19</summary>
+<br>
 <p>
 * cw 8239 Lazy loading - updated waypoint offset from 66% to 80%, elements above the fold should appear more readily
 * cw 8266 Add button to Insights page render
@@ -24,6 +26,7 @@ This is mostly notes related to ongoing projects
 
 <details>
 <summary>9/13/19</summary>
+<br>
 <p>
 * cw 8046 Header Utility Menu Display Issue - had to define width for .header-utilityNav item; was breaking to a new line
 * cw 6058 Subscribe CTA - broken `::before` && `::after` - had to define pseudo element translateX positioning for devices below XS breakpoint
@@ -34,6 +37,7 @@ This is mostly notes related to ongoing projects
 
 <details>
 <summary>9/12/19</summary>
+<br>
 <p>
 * cw 7813 Hero Page Title Card - Fixed min-height for event of no button (an optional element)
 * cw 7186 Multimedia Search Results Page - Continues playing on modal close fix;
@@ -52,6 +56,7 @@ if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); };
 
 <details>
 <summary>9/11/19</summary>
+<br>
 <p>
 *Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'*
 
