@@ -14,6 +14,7 @@ This is mostly notes related to ongoing projects
 * cw 6172 Update image specs for download asset component - generated new set of images and updated component markup
 </p>
 </details>
+<br>
 
 <details>
 <summary>9/16/19</summary>
@@ -23,6 +24,7 @@ This is mostly notes related to ongoing projects
 * cw 8266 Add button to Insights page render
 </p>
 </details>
+<br>
 
 <details>
 <summary>9/13/19</summary>
@@ -34,6 +36,7 @@ This is mostly notes related to ongoing projects
 * cw 7186 Multimedia Search Results Page - fix from yesterday has been pushed to QA, but the modal open mask covers the entire page now. CoveoSearchInterface put a `z-index` on the wrapper which overrode the modal `z-index`.
 </p>
 </details>
+<br>
 
 <details>
 <summary>9/12/19</summary>
@@ -53,6 +56,7 @@ if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); };
 *triggers if element is found*
 </p>
 </details>
+<br>
 
 <details>
 <summary>9/11/19</summary>
@@ -69,3 +73,4 @@ $('.coveo-query-summary-cancel-last').text('Try a different search term');
 * cw 7813 Hero Page Title Card Image Size(s) fix
 </p>
 </details>
+<br>
