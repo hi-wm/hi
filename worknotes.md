@@ -56,7 +56,7 @@ if (window.VidyardV4) { $(window).trigger('vidyardPlayerApiReady'); };
 
 <details>
 <summary>9/11/19</summary>
-<p>
+<p>  
 *Target class of '.coveo-query-summary-cancel-last' and change text to 'Try a different search term'*
 
 ```javascript
