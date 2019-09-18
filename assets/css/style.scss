@@ -15,3 +15,11 @@ a {
 h1 a {
     font-weight: 200;
 }
+
+summary::-webkit-details-marker {
+    color: #a002df;
+}
+
+summary summary {
+    margin-left: 20px;
+}
