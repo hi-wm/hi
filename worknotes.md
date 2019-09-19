@@ -11,6 +11,38 @@ This is mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+> 9/19
+
+*Closed out remaining cw tickets.*
+*Working on mwt full time now.*
+
+* mwt 185 - RTE Text Formatting - BED refused a classname from our markup which broke body copy styling. Additionally, styling was needed for `<strong>` text. I did that. Like this:
+
+```scss
+p {
+    margin-top: 11px;
+    strong {
+        font-family: Helvetica Neue LT W01_83 Hv Ex,Helvetica Neue,Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+    }
+}
+```
+
+* mwt 182 / 184 - Extra Whitespace - BED had reused a classname on an element which resulted in strange behavior. I added a new classname and relevant styling, but once implemented by BED, Sitecore adds spaces in a `<div>` with no content and the `:empty` pseudo-selector was unable to work. Thankfully, BED *was* able to write some logic that will conditionally render the `<div>` if there is content for it. Also had update the name of a file, because some FED had not done that causing the test page to be broken.
+
+```scss
+.flex-content-feature-accordion {
+        display: flex;
+        width: 100%;
+        order: 3;
+        &:empty {
+            display: none;
+        }
+    }
+```
+
+* mwt 35 Tabbed Carousel - pushed yesterdays changes to dev
+
 > 9/18
 
 * mwt 35 Tabbed Carousel - this component (based off of [slick slider](https://kenwheeler.github.io/slick/)) was intended to be used stand-alone, but of course QA found a reason to use it twice on a page (maybe there is a genuine use case for this?). Needless to say, how the component was initally set up was targeting a class instead of a unique ID. Adding a data-target was able to solve the problem. The changes made are as follows:
@@ -40,7 +72,6 @@ asNavFor: '#' + target,
 ```html
 <section class="innovations-tabbed-view" data-target="1"> <!-- added the data-target -->
 ```
-This all took a bit of work and introduced me to some concepts that I was not aware of. HUGE thanks to Eric for the help!
 
 > 9/17
 
