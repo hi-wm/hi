@@ -9,6 +9,7 @@ This is mostly notes related to ongoing projects
 <summary>2019</summary>
 <details>
 <summary>September</summary>
+<br>
 
 > 9/18
 
