@@ -10,6 +10,37 @@ This is mostly notes related to ongoing projects
 <details>
 <summary>September</summary>
 
+> 9/18
+
+* mwt 35 Tabbed Carousel - this component (based off of [slick slider](https://kenwheeler.github.io/slick/)) was intended to be used stand-alone, but of course QA found a reason to use it twice on a page (maybe there is a genuine use case for this?). Needless to say, how the component was initally set up was targeting a class instead of a unique ID. Adding a data-target was able to solve the problem. The changes made are as follows:
+
+*these were the changes made to the JavaScript*
+
+```javascript
+...
+var $this = $(this); // this line already existed
+var target = $this.data('target');
+
+// inside of the slick slider settings
+
+asNavFor: '#' + target,
+
+// targets the unique id
+
+...$('#' + target).slick...
+```
+
+*and these were the changes made to the HTML files*
+
+```html
+<div class="innovations-tabbed-view__items" id="1"> <!-- added the id -->
+```
+
+```html
+<section class="innovations-tabbed-view" data-target="1"> <!-- added the data-target -->
+```
+This all took a bit of work and introduced me to some concepts that I was not aware of. HUGE thanks to Eric for the help!
+
 > 9/17
 
 * cw 6472 Chapter Component - add spacing to match spec `margin-bottom: 4rem;`
