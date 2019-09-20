@@ -13,7 +13,7 @@ This is mostly notes related to ongoing projects
 
 > 9/19
 
-*Closed out remaining cw tickets.*
+*Closed out remaining cw tickets.*  
 *Working on mwt full time now.*
 
 * mwt 185 - RTE Text Formatting - BED refused a classname from our markup which broke body copy styling. Additionally, styling was needed for `<strong>` text. I did that. Like this:
