@@ -23,6 +23,7 @@ p {
     margin-top: 11px;
     strong {
         font-family: Helvetica Neue LT W01_83 Hv Ex,Helvetica Neue,Helvetica,Arial,sans-serif;
+        // had to change the above to a variable *$helvetica83* that had been declared in a separate file
         text-transform: uppercase;
     }
 }
