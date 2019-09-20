@@ -11,6 +11,16 @@ This is mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+> 9/20
+
+*mwt internal team having trouble with build and deployment*
+
+* mwt 91 - hero header component - This is a new component build based off of a Sketch file provided by UX. I have had some trouble with the overall structure of the project, would probably have been useful to spend some time speaking with a dev who has worked on the project before just diving in. Exported and cleaned up an ```SVG```, built out ```HTML``` and ```SCSS``` for the component. Would like someone to review before I submit a PR. Can hopefully get that this Monday.
+
+---
+
+Pretty slow day overall
+
 > 9/19
 
 *Closed out remaining cw tickets.*  
