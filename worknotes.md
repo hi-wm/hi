@@ -11,6 +11,119 @@ This is mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+9/24
+
+*mwt merged repos, built and deployed the project in its current state. Lots of bugs knocked out, focus shifted to PIP (Product Information Page) Component production*
+
+* mwt 99 - pip gallery component - Another new component build based off of the Sketch file provided by UX. Having become more familiar with the project structure, this was an easier build, but there were some interesting trip ups provided by flexbox. The major hiccups were uneven columns, an image that spanned 2 columns and rows, and gradient overlays. The following ```HTML``` and ```SCSS``` is how that was handled. Built for mobile first, the ```SCSS``` is what really drives the magic here. I hope the clients dev team doesn't mind my ```@mixin``` here because it helped to make the code more DRY.
+
+```scss
+@import ''; // link removed to preserve client anonymity
+@mixin overlay-base {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 80%, rgba(0,0,0,0.95) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.95)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* W3C */
+}
+.pip-gallery {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    @media screen and (min-width: $tablet-min) {
+        flex-wrap: nowrap;
+    }
+    
+    &__large-image {
+        flex: 0 0 100vw;
+        order: 1;
+        @media screen and (min-width: $tablet-min) {
+            flex: 0 0 66.66vw;
+        }
+        
+        & img {
+            width: 100%;
+            z-index: -1;
+        }
+        
+        &__overlay::after {
+            @include overlay-base;
+            left: 0;
+            top: 0;
+            height: 33.33%;
+            @media screen and (min-width: $tablet-min) {
+                height: 100%;
+                width: 66.66vw;
+            }
+        }
+    }
+    
+    &__small-image {
+        flex: 0 0 100vw;
+        flex-direction: unset;
+        order: 2;
+        @media screen and (min-width: $tablet-min) {
+            flex: 0 0 33.33vw;
+        }
+        
+        &__overlay-top::after {
+            @include overlay-base;
+            right: 0;
+            top: 0;
+            height: 67%;
+            @media screen and (min-width: $tablet-min) {
+                height: 50%;
+                width: 33.33vw;
+            }
+        }
+        &__overlay-bottom::after {
+            @include overlay-base;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            @media screen and (min-width: $tablet-min) {
+                height: 50%;
+                width: 33.33vw;
+            }
+        }
+        
+        & img {
+            width: 100%;
+            z-index: -1;
+        }
+    }
+}
+```
+
+```html
+<section class="pip-gallery">
+    <div class="pip-gallery__large-image">
+        <div class="pip-gallery__large-image__overlay">
+            <img src="/pip-gallery-1.png">
+        </div>
+    </div>
+    <div class="pip-gallery__small-image">
+        <div class="pip-gallery__small-image__overlay-top">
+            <img src="/pip-gallery-2.png">
+        </div>
+        <div class="pip-gallery__small-image__overlay-bottom">
+            <img src="/pip-gallery-3.png">
+        </div>
+    </div>
+</section>
+```
+
+---
+
+9/23
+
+* mwt 91 - hero header component - UPDATE - I had this reviewed internally before passing it on. I neglected that this was a new component that needed to be fleshed out by BED before a PR was submitted, so my PR got abandoned ¯\_(ツ)_/¯ Not a big deal, more a matter of me learning the workflow a bit. BED got this knocked out and all looks good.
+
 ---
 
 9/20
