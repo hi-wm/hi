@@ -26,7 +26,7 @@ Here are some Frontend Development resources that have proven useful
 
 ## Random Junk
 
-[Add or Remove classes on things w/ Jquery?](http://jsfiddle.net/ak9Lnrjj/10/)
+[Add or Remove classes on things w/ Jquery?](http://jsfiddle.net/ak9Lnrjj/10/)  
 *could be a fix for slick carousel variable height slides. add a class that makes all the other slides have ```css
 display: none;
 ```*
