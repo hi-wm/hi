@@ -24,12 +24,12 @@ These are mostly notes related to ongoing projects
     <div class="media-gallery__img media-gallery__video video-link" data-video="" data-brightcovevideo="6076312645001" data-brightcoveplayer="r1tg8ngpM">
         <img src="image link removed to preserve client anonymity" alt="">
         <div class="pip-video__icon">
-            <svg width="100%" height="100%" version="1.1" id="pip-video-play-button" xmlns="http://www.w3.org/2000/svg"
+            <!-- <svg width="100%" height="100%" version="1.1" id="pip-video-play-button" xmlns="http://www.w3.org/2000/svg"
             x="0px" y="0px" viewBox="0 0 106 106" style="enable-background:new 0 0 106 106;" xml:space="preserve" preserveAspectRatio="xMinYMin">
             <path id="outline" class="st0" d="M53,105.5C24.1,105.5,0.5,81.9,0.5,53C0.5,24.1,24.1,0.5,53,0.5c28.9,0,52.5,23.6,52.5,52.5 C105.5,81.9,81.9,105.5,53,105.5z M53,3.5C25.7,3.5,3.5,25.7,3.5,53c0,27.3,22.2,49.5,49.5,49.5c27.3,0,49.5-22.2,49.5-49.5 C102.5,25.7,80.3,3.5,53,3.5z" fill="#33EB91"/>
             <path id="background" class="st1" d="M53,7c25.4,0,46,20.6,46,46S78.4,99,53,99S7,78.4,7,53S27.6,7,53,7z" fill="rgba(0,0,0,.5)"/>
             <path id="triangle" class="st2" d="M73,51.5L41,77.9V25.1L73,51.5z" fill="#ffffff"/>
-            </svg>
+            </svg> -->
         </div>
     </div>
 </div>
