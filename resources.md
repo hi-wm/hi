@@ -23,3 +23,10 @@ Here are some Frontend Development resources that have proven useful
 [Video Tutorial Walkthrough](https://www.reddit.com/r/sitecore/comments/bdihvd/sitecore_sxa_tutorials_sxa_1_8_full_site_step_by/)
 
 [Add data attributes to renderings](http://blog.martinmiles.net/post/how-to-add-id-and-data-attributes-to-a-rendering-variant-in-sxa)
+
+## Random Junk
+
+[Add or Remove classes on things w/ Jquery?](http://jsfiddle.net/ak9Lnrjj/10/)
+*could be a fix for slick carousel variable height slides. add a class that makes all the other slides have ```css
+display: none;
+```*
