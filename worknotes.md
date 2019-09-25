@@ -11,6 +11,89 @@ These are mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+9/25
+
+*fought with responsive ```SVG``` (I see you cw), attended 3 too many meetings, only drank 2 la croix*
+
+* mwt 97 - pip video component - Another fun run-in with ```SVG```. Of course this needed to be responsive, so after tons of somethinging... here's what I ended up with:
+
+<details>
+<summary>Click to view my work of the day</summary>
+```html
+<div class="pip-video">
+    <div class="media-gallery__img media-gallery__video video-link" data-video="" data-brightcovevideo="6076312645001" data-brightcoveplayer="r1tg8ngpM">
+        <img src="image link removed to preserve client anonymity" alt="">
+        <div class="pip-video__icon">
+            <svg width="100%" height="100%" version="1.1" id="pip-video-play-button" xmlns="http://www.w3.org/2000/svg"
+            x="0px" y="0px" viewBox="0 0 106 106" style="enable-background:new 0 0 106 106;" xml:space="preserve" preserveAspectRatio="xMinYMin">
+            <path id="outline" class="st0" d="M53,105.5C24.1,105.5,0.5,81.9,0.5,53C0.5,24.1,24.1,0.5,53,0.5c28.9,0,52.5,23.6,52.5,52.5 C105.5,81.9,81.9,105.5,53,105.5z M53,3.5C25.7,3.5,3.5,25.7,3.5,53c0,27.3,22.2,49.5,49.5,49.5c27.3,0,49.5-22.2,49.5-49.5 C102.5,25.7,80.3,3.5,53,3.5z" fill="#33EB91"/>
+            <path id="background" class="st1" d="M53,7c25.4,0,46,20.6,46,46S78.4,99,53,99S7,78.4,7,53S27.6,7,53,7z" fill="rgba(0,0,0,.5)"/>
+            <path id="triangle" class="st2" d="M73,51.5L41,77.9V25.1L73,51.5z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<div id="modal-video" class="modal modal--video">
+    <div class="pip-video modal__content">
+        <div class="pip-video__video-wrapper">
+            <video-js 
+                data-account="" 
+                data-embed="default" 
+                data-player="" 
+                data-video-id="" 
+                style="height:auto; position:relative; width:100vw;"
+                controls
+            ></video-js>
+        </div>
+    </div>
+</div>
+```
+
+```scss
+.pip-video {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+    & .video-link::after {
+        right: 0;
+        top: 0;
+        height: 100%;content: '';
+        position: absolute;
+        width: 100vw;
+        background: -moz-linear-gradient(top, rgba(0,0,0,0) 80%, rgba(0,0,0,0.95) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.95)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 80%,rgba(0,0,0,0.95) 100%); /* W3C */
+    }
+    
+    & div > img {
+        width: 100vw;
+        height: auto;
+        
+    }
+
+    &__icon {
+        position: absolute;
+        max-width: 12%;
+        top: 40%;
+        left: 44%;
+
+        @media screen and (min-width: $tablet-min) {
+            max-width: 6%;
+            top: 40%;
+            left: 47%;
+        }
+    }
+
+}
+```
+</details>
+
+---
+
 9/24
 
 *mwt merged repos, built and deployed the project in its current state. Lots of bugs knocked out, focus shifted to PIP (Product Information Page) Component production*
