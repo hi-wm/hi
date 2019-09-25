@@ -19,6 +19,8 @@ These are mostly notes related to ongoing projects
 
 <details>
 <summary>Click to view my work of the day</summary>
+<br>
+
 ```html
 <div class="pip-video">
     <div class="media-gallery__img media-gallery__video video-link" data-video="" data-brightcovevideo="6076312645001" data-brightcoveplayer="r1tg8ngpM">
