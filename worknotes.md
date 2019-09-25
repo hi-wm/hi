@@ -2,7 +2,7 @@
 title: Daily Worknotes
 ---
 
-The purpose of this document is to keep a running record of my daily activities at [Horizontal Integration](http://horizontalintegration.com)  
+The purpose of this document is to keep a running record of my daily activities at [Horizontal](http://horizontalintegration.com)  
 This is mostly notes related to ongoing projects
 
 <details>

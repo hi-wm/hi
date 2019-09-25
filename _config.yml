@@ -14,6 +14,6 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 breadcrumbs: true
 title: Worknotes & Frontend Development Resources
-description: Worknotes & Frontend Development Resources from William Harrison @ Horizontal Integration
+description: Worknotes & Frontend Development Resources from William Harrison @ Horizontal
 name: William Harrison
 markdown: CommonMarkGhPages
