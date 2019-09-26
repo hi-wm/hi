@@ -9,7 +9,6 @@ title:
 <script>
         let la_croix = document.getElementById("la-croix");
         let today = new Date();
-        la_croix.innerHTML = la_croix_consumed;
 
         function calculate_la_croix() {
             let tomorrow = new Date();
