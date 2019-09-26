@@ -11,6 +11,12 @@ These are mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+9/26
+
+
+
+---
+
 9/25
 
 *fought with responsive ```SVG``` (I see you cw), attended 3 too many meetings, only drank 2 la croix*
