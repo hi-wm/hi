@@ -4,7 +4,7 @@ title:
 [Resources](./resources.md)  
 [Worknotes](./worknotes.md)
 
-<h1>La Croix Consumed <span id="la-croix"></span></h1>
+<h2>Estimated La Croix Consumed <span id="la-croix"></span></h2>
 
 <script>
         let la_croix = document.getElementById("la-croix");
@@ -13,7 +13,7 @@ title:
         let today = new Date();
         let day_diff = Math.round(today.getTime() - start.getTime()) / (one_day);
         let minus_weekends = day_diff.toFixed(0) / 7;
-        let work_days = day_diff - minus_weekends
+        let work_days = day_diff - minus_weekends.toFixed(0);
         let la_croix_consumed = work_days * 2;
         la_croix.innerHTML = la_croix_consumed;
 </script>
