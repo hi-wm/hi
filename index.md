@@ -14,6 +14,6 @@ title:
         let day_diff = (Math.round(today.getTime() - start_date.getTime()) / (one_day)).toFixed(0);
         let minus_weekends = ((day_diff / 7).toFixed(0))*2;
         let work_days = day_diff - minus_weekends;
-        let la_croix_consumed = work_days * 2;
+        let la_croix_consumed = (work_days + 1) * 2;
         la_croix.innerHTML = la_croix_consumed;
 </script>
