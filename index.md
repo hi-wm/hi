@@ -4,7 +4,7 @@ title:
 [Resources](./resources.md)  
 [Worknotes](./worknotes.md)
 
-<p class="h2">Estimated La Croix Consumed <span id="la-croix"></span></p>
+<p class="unique-title-name">Estimated La Croix Consumed <span id="la-croix"></span></p>
 
 <script>
         let la_croix = document.getElementById("la-croix");
