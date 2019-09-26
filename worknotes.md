@@ -13,7 +13,9 @@ These are mostly notes related to ongoing projects
 
 9/26
 
+Spent the day going over [Frontend Masters Accessibility in JavaScript](https://frontendmasters.com/courses/javascript-accessibility) course. Have been writing up notes [here](https://medium.com/@hztl_wm/accessibility-in-javascript-applications-8a0b01d8266f) and commenting on the codebase [here](https://github.com/hztl-wm/fem-js-a11y-workshop). I will be presenting my findings on Tuesday 10/1 during our bi-weekly FED team meeting.
 
+*I also added a La Croix consumption counter to the main page of this little repo, becuase who doesn't love a good La Croix or 3?*
 
 ---
 
