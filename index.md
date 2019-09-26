@@ -8,11 +8,10 @@ title:
 
 <script>
         let la_croix = document.getElementById("la-croix");
+        let one_day = 1000 * 60 * 60 * 24;
         let start = new Date(09/03/2019);
-        let today = new Date(09/30/2019);
-
-        function calculate_la_croix() {
-            let la_croix_consumed = (start - today) * 2;
-            la_croix.innerHTML = la_croix_consumed;
-        }
+        let today = new Date();
+        let la_croix_pre = Math.round(today.getTime() - start.getTime()) / (one_day);
+        let la_croix_consumed = la_croix_pre.toFixed(0);
+        la_croix.innerHTML = la_croix_consumed;
 </script>
