@@ -102,6 +102,10 @@ These are mostly notes related to ongoing projects
 
 * mwt 99 - pip gallery component - Another new component build based off of the Sketch file provided by UX. Having become more familiar with the project structure, this was an easier build, but there were some interesting trip ups provided by flexbox. The major hiccups were uneven columns, an image that spanned 2 columns and rows, and gradient overlays. The following ```HTML``` and ```SCSS``` is how that was handled. Built for mobile first, the ```SCSS``` is what really drives the magic here. I hope the clients dev team doesn't mind my ```@mixin``` here because it helped to make the code more DRY.
 
+<details>
+<summary>Click to view my work of the day</summary>
+<br>
+
 ```scss
 @import ''; // link removed to preserve client anonymity
 @mixin overlay-base {
@@ -202,6 +206,7 @@ These are mostly notes related to ongoing projects
     </div>
 </section>
 ```
+</details>
 
 ---
 
