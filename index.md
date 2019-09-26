@@ -8,7 +8,10 @@ title:
 
 <script>
         let la_croix = document.getElementById("la-croix");
+        let la_croix_consumed = 1;
         let today = new Date();
+        console.log(today);
+        la_croix.innerHTML = la_croix_consumed;
 
         function calculate_la_croix() {
             let tomorrow = new Date();
