@@ -8,7 +8,7 @@ title:
 
 <script>
         let la_croix = document.getElementById("la-croix");
-        let la_croix_consumed = 0;
+        let la_croix_consumed = ;
         let today = new Date();
         la_croix.innerHTML = la_croix_consumed;
 
