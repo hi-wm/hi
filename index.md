@@ -10,7 +10,7 @@ title:
         let la_croix = document.getElementById("la-croix");
         let la_croix_consumed = 1;
         let start = new Date(09/03/2019);
-        let today = new Date();
+        let today = new Date(09/30/2019);
         console.log(today);
         la_croix.innerHTML = la_croix_consumed;
 
