@@ -13,7 +13,26 @@ These are mostly notes related to ongoing projects
 
 9/27
 
+*client launched the things we've been working on and it was a happy moment for all involved. today was an oktoberfest celebration*
 
+* mwt 56 - pip product reviews - spent the day working with a service called [Stackla](https://developer.stackla.com). Something the client uses for part of their site. Has a code editor not unlike Codepen, but the embed code provides an iframe which means that you have to get as much ```CSS``` and ```JavaScript``` into the code editor because it's not easy to reach into the iframe... Spent a bit of time figuring out how to provide a div with an ```SVG``` background-image and compiled those resources over on my...Resource page. Also learned that I remembered the ```HTML``` code for a non-breaking space. Amazing. ```&nbsp;``` Here's what the ```SVG``` code looks like:
+
+<details>
+<summary>It's horrific, you've been warned</summary>
+<br>
+
+```scss
+.instagram {
+	background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2038%2038%22%3E%3Cpath%20fill%3D%22%230a0a0a%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%200c10.5%200%2019%208.5%2019%2019s-8.5%2019-19%2019S0%2029.5%200%2019%208.5%200%2019%200z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18.8%207.8c-2.7%200-3%200-4.1.1-1%200-1.8.2-2.4.5-.6.3-1.2.6-1.7%201.1-.5.5-.9%201.1-1.1%201.7-.2.6-.4%201.3-.5%202.4v4.1c0%202.7%200%203%20.1%204.1%200%201%20.2%201.8.5%202.4.3.6.6%201.2%201.1%201.7.5.5%201.1.9%201.7%201.1.6.2%201.3.4%202.4.5%201%200%201.4.1%204.1.1%202.7%200%203%200%204.1-.1%201%200%201.8-.2%202.4-.5.6-.3%201.2-.6%201.7-1.1.5-.5.9-1.1%201.1-1.7.2-.6.4-1.3.5-2.4%200-1%20.1-1.4.1-4.1%200-2.7%200-3-.1-4.1%200-1-.2-1.8-.5-2.4-.3-.6-.6-1.2-1.1-1.7-.5-.5-1.1-.9-1.7-1.1-.6-.2-1.3-.4-2.4-.5-1.2-.1-1.5-.1-4.2-.1m0%201.8c2.6%200%202.9%200%204%20.1%201%200%201.5.2%201.8.3.5.2.8.4%201.1.7.3.3.6.7.7%201.1.1.3.3.9.3%201.8%200%201%20.1%201.3.1%204%200%202.6%200%202.9-.1%204%200%201-.2%201.5-.3%201.8-.2.5-.4.8-.7%201.1-.3.3-.7.6-1.1.7-.3.1-.9.3-1.8.3-1%200-1.3.1-4%20.1s-2.9%200-4-.1c-1%200-1.5-.2-1.8-.3-.5-.2-.8-.4-1.1-.7-.3-.3-.6-.7-.7-1.1-.1-.3-.3-.9-.3-1.8%200-1-.1-1.3-.1-4%200-2.6%200-2.9.1-4%200-1%20.2-1.5.3-1.8.2-.5.4-.8.7-1.1.3-.3.7-.6%201.1-.7.3-.1.9-.3%201.8-.3%201.1-.1%201.4-.1%204-.1m.2%2011.1c-1.8%200-3.2-1.5-3.2-3.2%200-1.8%201.5-3.2%203.2-3.2%201.8%200%203.2%201.5%203.2%203.2%200%201.8-1.4%203.2-3.2%203.2m0-8.2c-2.8%200-5%202.2-5%205s2.2%205%205%205%205-2.2%205-5-2.2-5-5-5m6%200c0%20.6-.4%201-1%201s-1-.4-1-1%20.4-1%201-1%201%20.4%201%201%22%20clip-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+	width: 38px;
+	height: 38px;
+	background-size: contain;
+	margin-right: 10px;
+}
+```
+</details>
+
+Basically what is happening above is an ```SVG``` was exported from Illustrator, ran through a service that minimizes the code, then through a URL encoder. The links over at my Resources page are quite detailed in how this works. It was nice to find a workaround for the limitations that is [Stackla](https://developer.stackla.com). me: +1, stackla: 0
 
 ---
 
