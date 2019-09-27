@@ -5,7 +5,7 @@ title:
 [Worknotes](./worknotes.md)
 
 <p class="unique-title-name">William has consumed <span id="la-croix"></span> cans of delicious, bubbly, essenced water (La Croix) since his start date at Horizontal.</p>
-<p><em> * estimated # of cans of La Croix consumed accurate by ±50%</em></p>
+<p><em> * cans of La Croix consumed accurate by ±50%</em></p>
 
 <script>
         let la_croix = document.getElementById("la-croix");
