@@ -2,8 +2,8 @@
 title: 
 ---
 <main>
-<a class="homepage-link" href="./resources.md">Resources</a>
-<a class="homepage-link" href="./worknotes.md">Worknotes</a>
+<a class="homepage-link" href="./resources.html">Resources</a>
+<a class="homepage-link" href="./worknotes.html">Worknotes</a>
 </main>
 
 <footer>
