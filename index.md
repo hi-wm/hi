@@ -4,7 +4,7 @@ title:
 [Resources](./resources.md)  
 [Worknotes](./worknotes.md)
 
-<p class="unique-title-name">Estimated La Croix Consumed at Horizontal <span id="la-croix"></span></p>
+<p class="unique-title-name">Estimated cans of La Croix consumed at Horizontal by William: <span id="la-croix"></span> ±50% cans of delicious, bubbly, essenced water.</p>
 
 <script>
         let la_croix = document.getElementById("la-croix");
