@@ -1,8 +1,10 @@
 ---
 title: 
 ---
-[Resources](./resources.md)  
-[Worknotes](./worknotes.md)
+<main>
+<a class="homepage-link" href="./resources.md">Resources</a>
+<a class="homepage-link" href="./worknotes.md">Worknotes</a>
+</main>
 
 <footer>
 <p>William has consumed <span id="la-croix"></span> cans of delicious, bubbly, essenced water (La Croix) since his start date at Horizontal.<br/>
