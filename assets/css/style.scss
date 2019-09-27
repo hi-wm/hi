@@ -42,4 +42,10 @@ details {
 footer {
     position: absolute;
     bottom: 0;
+    opacity: .5;
+
+    &:hover {
+        opacity: 1;
+        background-color: #a002df;
+    }
 }
