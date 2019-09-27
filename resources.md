@@ -30,3 +30,15 @@ Here are some Frontend Development resources that have proven useful
 
 [Add or Remove classes on things w/ Jquery?](http://jsfiddle.net/ak9Lnrjj/10/)  
 *could be a fix for slick carousel variable height slides. add a class that makes all the other slides have```css display: none;```* 
+
+## Ewwww SVG
+
+*read in order*
+
+[A Primer to Frontend SVG Hacking :D](https://dbushell.com/2013/02/04/a-primer-to-front-end-svg-hacking/)
+
+[Optimizing SVGs in Data URIs](https://codepen.io/tigt/post/optimizing-svgs-in-data-uris)
+
+[Data URI Generator](https://dopiaza.org/tools/datauri/index.php)
+
+[URL Encoder](https://www.urlencoder.org/)
