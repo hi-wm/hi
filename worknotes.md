@@ -32,7 +32,7 @@ These are mostly notes related to ongoing projects
 ```
 </details>
 
-Basically what is happening above is an ```SVG``` was exported from Illustrator, ran through a service that minimizes the code, then through a URL encoder. The links over at my Resources page are quite detailed in how this works. It was nice to find a workaround for the limitations that is [Stackla](https://developer.stackla.com). me: +1, stackla: 0
+Basically what is happening above is an ```SVG``` was exported from Illustrator, ran through a service that minimizes the code, then through a URL encoder. The links over at my [Resources](./resources.md) page are quite detailed in how this works. It was nice to find a workaround for the limitations that is [Stackla](https://developer.stackla.com). me: +1, stackla: 0
 
 ---
 
