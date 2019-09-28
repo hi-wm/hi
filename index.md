@@ -7,7 +7,7 @@ title:
 </main>
 
 <footer>
-<p>William has consumed <span id="la-croix"></span> cans of delicious, bubbly, essenced water (La Croix) since his start date at Horizontal.<br/>
+<p>William has consumed <span id="la-croix"></span> cans of delicious, bubbly, essenced water <span class="la-croix-logo"> since his start date at Horizontal.<br/>
 <em class="lighten-up"> * cans of La Croix consumed accurate by ±50%</em></p>
 </footer>
 
