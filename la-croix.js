@@ -7,6 +7,5 @@ let la_croix_consumed = work_days * 2;
 la_croix.innerHTML = la_croix_consumed;
 
 for(let i = 0; i < la_croix_consumed; i++) {
-    let la_croix_cans = document.getElementById("la-croix-cans")
-    la_croix_cans.innerHTML = `<span id={i} class="la-croix-can"></span>`
+    document.getElementById("la-croix-cans").append(`<span id={i} class="la-croix-can"></span>`)
 }
