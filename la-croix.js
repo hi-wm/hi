@@ -8,5 +8,6 @@ la_croix.innerHTML = la_croix_consumed;
 let la_croix_cans = document.getElementById("la-croix-cans");
 
 for(let i = 0; i < la_croix_consumed; i++) {
-    la_croix_cans.append('<span id="'+i+'" class="la-croix-can"></span>')
+    let can_span = '<span id="'+i+'" class="la-croix-can"></span>';
+    la_croix_cans.append(can_span);
 }
