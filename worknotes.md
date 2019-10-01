@@ -11,6 +11,12 @@ These are mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+9/30
+
+*finally received some comments on a PR submitted by BED for cwt... it was requested that I change a lot of element classes to better suit BEM. ugh BEM*
+
+---
+
 9/27
 
 *client launched the things we've been working on and it was a happy moment for all involved. today was an oktoberfest celebration*
