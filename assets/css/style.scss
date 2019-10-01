@@ -74,4 +74,8 @@ footer {
     display: inline-block;
     background-size: 40px;
     margin: 20px;
+
+    &:nth-of-type(2n) {
+        transform: rotate(20deg);
+    }
 }
