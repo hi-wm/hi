@@ -78,4 +78,8 @@ footer {
     &:nth-of-type(2n) {
         transform: rotate(20deg);
     }
+
+    &:nth-of-type(3n) {
+        transform: rotate(-20deg);
+    }
 }
