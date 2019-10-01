@@ -89,7 +89,11 @@ footer {
         transform: rotate(-20deg);
     }
 
-    &::nth-of-type(5n) {
+    &:nth-of-type(5n) {
         transform: rotate(160deg);
+    }
+
+    &:hover {
+        transform: none;
     }
 }
