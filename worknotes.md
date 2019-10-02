@@ -8,7 +8,7 @@ These are mostly notes related to ongoing projects
 <details>
 <summary>2019</summary>
 <details>
-<summary>September</summary>
+<summary>October</summary>
 <br>
 
 10/2
@@ -21,9 +21,11 @@ These are mostly notes related to ongoing projects
 
 * mwt 56 - pip product reviews - the fight continues. I did find that we may have been using the wrong base template for the social card widget on Stackla. Switched to another template and have found a greater deal of flexibility working with this thing, but I'm still giving Stackla a point for the day, because they win.
 
-me: 1, stackla: 1
-
----
+me: 1, stackla: 1  
+</details>
+<details>
+<summary>September</summary>
+<br>
 
 9/30
 
