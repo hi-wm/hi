@@ -13,6 +13,12 @@ These are mostly notes related to ongoing projects
 
 10/2
 
+*had to get out of Stackla and mwt. Only had half time this week for that and ab, so mwt is out for the week. Moving on to ab, started learning sxa thangs.*
+
+* mwt 56 - pip product reviews - made some good progress on this. Got the base set for the layout of the page in mobile and desktop views, but the functional requirements are not yet met. Having to pass this back to the other FED on the project to implement, but would have needed their help on this component nonetheless. Oh JavaScript, there is so much to learn. Stackla wins.
+
+me: 1, stackla: 2
+
 ---
 
 10/1
