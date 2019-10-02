@@ -11,7 +11,7 @@ These are mostly notes related to ongoing projects
 <summary>October</summary>
 <br>
 
-@[:markdown](1910.md)
+@[:markdown](/worknotes/1910.md)
 10/2
 
 ---
