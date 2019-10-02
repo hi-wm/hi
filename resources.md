@@ -6,10 +6,6 @@ Here are some Frontend Development resources that have proven useful
 
 ## Sitecore Experience Accelerator
 
----
-title: SXA Basics
----
-
 <details>
 <summary>Tenant and Site Creation</summary>
 

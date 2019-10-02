@@ -1,7 +1,3 @@
----
-title: SXA Basics
----
-
 <details>
 <summary>Tenant and Site Creation</summary>
 
