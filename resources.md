@@ -10,7 +10,7 @@ Here are some Frontend Development resources that have proven useful
 <summary>SXA Basics</summary>
 <details>
 <summary>Tenant and Site Creation</summary>
-
+<br />
 Right-click on ```Content``` node and a dropdown menu will appear. From here, follow ```Insert > Tenant```. If your site will have numerous sub-sites, you can either create a ```Tenant Folder``` which can house multiple ```Tenants```, or you can create a ```Tenant``` which can also house multiple ```Tenants```. Each Tenant has a set of Data Templates, which are stored in the Templates section which you can share within a Tenant. You can also share Rendering Variants, Themes, and Media. Think first about how your organizational structure should be reflected, then click the button to make the thing.
 
 When you right click on ```Content``` then select ```Insert > Tenant``` a Tenant creation wizard will appear. It's magical. It is a single-step wizard, so it's not really that magical. But you should give your Tenant a name according to the naming conventions you have agreed upon with your client and or team, and additionally, you can select which of the Modules you may need for your Tenant.
@@ -37,11 +37,12 @@ If you had deselected a module when running though any of the wizards you have m
 
 <details>
 <summary>SXA Partial and Page Design Basics</summary>
-
+<br />
 
 
 </details>
 </details>
+<br />
 
 [Custom Component Build - Part 1 - Introduction](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Introduction)
 
