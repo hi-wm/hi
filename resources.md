@@ -7,6 +7,8 @@ Here are some Frontend Development resources that have proven useful
 ## Sitecore Experience Accelerator
 
 <details>
+<summary>SXA Basics</summary>
+<details>
 <summary>Tenant and Site Creation</summary>
 
 Right-click on ```Content``` node and a dropdown menu will appear. From here, follow ```Insert > Tenant```. If your site will have numerous sub-sites, you can either create a ```Tenant Folder``` which can house multiple ```Tenants```, or you can create a ```Tenant``` which can also house multiple ```Tenants```. Each Tenant has a set of Data Templates, which are stored in the Templates section which you can share within a Tenant. You can also share Rendering Variants, Themes, and Media. Think first about how your organizational structure should be reflected, then click the button to make the thing.
@@ -38,6 +40,7 @@ If you had deselected a module when running though any of the wizards you have m
 
 
 
+</details>
 </details>
 
 [Custom Component Build - Part 1 - Introduction](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Introduction)
