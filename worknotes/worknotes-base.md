@@ -7,6 +7,6 @@ These are mostly notes related to ongoing projects
 
 <details>
 <summary>2019</summary>
-@[:markdown](1910.md)
-@[:markdown](1909.md)
+@[:markdown](worknotes/1910.md)
+@[:markdown](worknotes/1909.md)
 </details>
