@@ -6,7 +6,10 @@ Here are some Frontend Development resources that have proven useful
 
 ## Sitecore Experience Accelerator
 
+<details>
+<summary>SXA Basics</summary>
 @[:markdown](worknotes/sxa/basics.md)
+</details>
 
 [Custom Component Build - Part 1 - Introduction](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Introduction)
 
