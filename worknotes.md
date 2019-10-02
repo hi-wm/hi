@@ -1,6 +1,3 @@
-<!-- >>>>>> BEGIN GENERATED FILE (include): SOURCE worknotes.md -->
-<!-- >>>>>> BEGIN INCLUDED FILE (markdown): SOURCE worknotes/1909.md -->
-<!-- >>>>>> BEGIN INCLUDED FILE (markdown): SOURCE worknotes/1910.md -->
 ---
 title: Daily Worknotes
 ---
@@ -27,7 +24,6 @@ These are mostly notes related to ongoing projects
 me: 1, stackla: 1  
 
 </details>
-<!-- <<<<<< END INCLUDED FILE (markdown): SOURCE worknotes/1910.md -->
 <details>
 <summary>September</summary>
 <br>
@@ -413,6 +409,4 @@ $('.coveo-query-summary-cancel-last').text('Try a different search term');
 * cw 7813 Hero Page Title Card Image Size(s) fix
 
 </details>
-<!-- <<<<<< END INCLUDED FILE (markdown): SOURCE worknotes/1909.md -->
 </details>
-<!-- <<<<<< END GENERATED FILE (include): SOURCE worknotes.md -->
