@@ -11,9 +11,29 @@ These are mostly notes related to ongoing projects
 <summary>September</summary>
 <br>
 
+10/2
+
+---
+
+10/1
+
+*spent the whole day in Stackla. I have nothing but inappropriate things to write...*
+
+* mwt 56 - pip product reviews - the fight continues. I did find that we may have been using the wrong base template for the social card widget on Stackla. Switched to another template and have found a greater deal of flexibility working with this thing, but I'm still giving Stackla a point for the day, because they win.
+
+me: 1, stackla: 1
+
+---
+
 9/30
 
-*finally received some comments on a PR submitted by BED for cwt... it was requested that I change a lot of element classes to better suit BEM. ugh BEM*
+*finally received some comments on a PR submitted by BED for mwt... it was requested that I change a lot of element classes to better suit BEM. ugh BEM*
+
+* mwt 97 - pip video component - as the note above mentions, we finally got some feedback on this PR and most of the requested changes came from how I had set up the names of the things. Not BEMmy enough... that's what she said. Complaints aside, I don't mind. It has been interesting to get familiar with another development teams processes, structure, and (in this case) naming conventions.
+
+* mwt 56 - pip product reviews - fighting this thing still. Got the 3 types of review cards up on a template page. After the BEM attack I got from the video component, I can only expect I will get some similar feedback on this one, but my main goal is to get it built for now.
+
+me: 1, stackla: 0
 
 ---
 
@@ -21,7 +41,7 @@ These are mostly notes related to ongoing projects
 
 *client launched the things we've been working on and it was a happy moment for all involved. today was an oktoberfest celebration*
 
-* mwt 56 - pip product reviews - spent the day working with a service called [Stackla](https://developer.stackla.com). Something the client uses for part of their site. Has a code editor not unlike Codepen, but the embed code provides an iframe which means that you have to get as much ```CSS``` and ```JavaScript``` into the code editor because it's not easy to reach into the iframe... Spent a bit of time figuring out how to provide a div with an ```SVG``` background-image and compiled those resources over on my...Resource page. Also learned that I remembered the ```HTML``` code for a non-breaking space. Amazing. ```&nbsp;``` Here's what the ```SVG``` code looks like:
+* mwt 56 - pip product reviews - spent the day working with a service called [Stackla](https://developer.stackla.com). Something the client uses for part of their site. Has a code editor not unlike Codepen, but the embed code provides an iframe which means that you have to get as much ```CSS``` and ```JavaScript``` into the code editor because it's not easy (impossible?) to reach into the iframe... Spent a bit of time figuring out how to provide a div with an ```SVG``` background-image and compiled those resources over on my...Resource page. Also learned that I remembered the ```HTML``` code for a non-breaking space. Amazing. ```&nbsp;``` Here's what the ```SVG``` code looks like:
 
 <details>
 <summary>It's horrific, you've been warned</summary>
@@ -38,7 +58,9 @@ These are mostly notes related to ongoing projects
 ```
 </details>
 
-Basically what is happening above is an ```SVG``` was exported from Illustrator, ran through a service that minimizes the code, then through a URL encoder. The links over at my [Resources](./resources.md) page are quite detailed in how this works. It was nice to find a workaround for the limitations that is [Stackla](https://developer.stackla.com). me: +1, stackla: 0
+Basically what is happening above is an ```SVG``` was exported from Illustrator, ran through a service that minimizes the code, then through a URL encoder. The links over at my [Resources](./resources.md) page are quite detailed in how this works. It was nice to find a workaround for the limitations that is [Stackla](https://developer.stackla.com).
+
+me: 1, stackla: 0
 
 ---
 
