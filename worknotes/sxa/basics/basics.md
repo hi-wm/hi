@@ -1,3 +1,8 @@
 @[:markdown](1-tenant-site-creation.md)
 @[:markdown](2-partial-page-design-basics.md)
 @[:markdown](3-rendering-variants-pt-1-basics.md)
+@[:markdown](4-create-fixed-layouts-with-page-content-component.md)
+@[:markdown](5-creating-working-styles.md)
+@[:markdown](6-sxa-themes-structure-inheritence.md)
+@[:markdown](7-introduction-responsive-grid-settings-components.md)
+@[:markdown](8-configuring-working-shared-sites.md)
