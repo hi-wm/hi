@@ -103,8 +103,17 @@ footer {
 
 // Images
 
-.markdown-body img {
+.markdown-body {
+    
+    img {
     max-width: 80%;
+    }
+
+    table {
+        margin: 0 auto;
+        display: initial;
+        width: auto;
+    }
 }
 
 p > img {
