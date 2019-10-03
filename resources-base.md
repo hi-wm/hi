@@ -8,7 +8,7 @@ Here are some Frontend Development resources that have proven useful
 
 <details>
 <summary>SXA Basics</summary>
-@[:markdown](worknotes/sxa/basics.md)
+@[:markdown](worknotes/sxa/basics/basics.md)
 </details>
 <br />
 
