@@ -15,7 +15,7 @@ In the *New Template* wizard, after you have given it a name, select the *Base t
 
 In the *Builder* tab for the new template, add a section named *Content* then define 2 additional fields below the new section name:
 
-Name | Type
---- | ---
-Summary | Multi-Line Text
-Publishdate | Date
+| Name | Type |
+| :--- | ---: |
+| Summary | Multi-Line Text |
+| Publishdate | Date |
