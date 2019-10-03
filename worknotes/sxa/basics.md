@@ -37,5 +37,13 @@ After datasource architecture, partial and page designs is a likely first step. 
 Within the *Experience Editor* you can drag and drop components into your partial design. In the *Experience Editor*, you will see (in the main part of the screen) a field that looks like a canvas (grey and white checkboard patterned), this is where the components for your partial design will go. There is a *header*, a *main*, and a *footer* for each partial design and when the page is rendered, these sections will be rendered in that order. For example, if you are making a Header component, but place the components for the partial design in a section that is not the header, then your Header Partial Design will not render in the header of your page.
 
 ![alt text](assets/images/SXA-Experience-Editor-Canvas.png "SXA Experience Editor Canvas")
+SXA Experience Editor Canvas. The alternating white and blue squares are highlighting the *main* section of the partial design canvas area.
+
+To add a component to the Header, drag the *Navigation* component from the right-hand side of the *Experience Editor* to the header section of the canvas. The *Navigation* component is nested under the *NAVIGATION* category of available components. Once the *Navigation* component is in the header section of the canvas, a toolbar for that component will appear (as seen below).
+
+![alt text](assets/images/SXA-Experience-Editor-Navigation-Component.png "SXA Experience Editor Canvas")
+SXA Experience Editor Navigation Component placed in header of Design Partial, toolbar active.
+
+On the right-side of the toolbar for your placed component, there is a dropdown menu, labeled *More*, underneath which are additional options for your component. Click *More*, then click *Edit component properties* to open the wizard.
 
 </details>
