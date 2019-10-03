@@ -5,6 +5,10 @@
 
 body {
     background-color: #ffffff;
+
+    & img {
+    max-width: 80%;
+    }
 }
 
 a {
@@ -103,7 +107,6 @@ footer {
 // Images
 
 p > img {
-    max-width: 80%;
     margin: 0 auto;
     display: inherit;
     padding-top: 20px;
