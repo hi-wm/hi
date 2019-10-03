@@ -177,7 +177,7 @@ Now that you have your new fixed layout, go to ```sitecore > Content > *tenant_n
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Create-Fixed-Layout-Custom-Template-Applied.png "SXA Experience Editor Create Fixed Layout Custom Template Applied")
 *SXA Experience Editor Create Fixed Layout Custom Template Applied*
 
-Using your new template, you can create new pages that have the type of your template and each page will be generated according to how you defined the template. Finally a shoutout to FED, it is said that with the basic structure of our pages defines, we are free to style the page the way we need. Yay SXA ?!
+Using your new template, you can create new pages that have the type of your template and each page will be generated according to how you defined the template. Finally a shoutout to FED, it is said that with the basic structure of our pages defined, we are free to style the page the way we need. Yay SXA ?!
 </details>
 <details>
 <summary>Creating and Working with Styles</summary>
