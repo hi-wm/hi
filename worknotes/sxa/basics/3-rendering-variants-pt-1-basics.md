@@ -14,6 +14,9 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant*
 
+The *Variant Definition* wizard will launch and you can enter a new name for your variant definition. After you have named your rendering variant definition, it will appear under ```Page Content > *new_rendering_variant*```. You can now insert a variety of rendering variant renderers that will be available for your *new_rendering_variant*. Add a new *Field* and name it "Title" then set the *Tag* to h1.
 
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant-Add-Field.png "SXA Experience Editor Rendering Variants Page Content Variant Add Field")
+*SXA Experience Editor Rendering Variants Page Content Variant Add Field*
 
 </details>
