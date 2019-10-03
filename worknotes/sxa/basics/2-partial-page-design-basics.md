@@ -1,4 +1,3 @@
-<details>
 <summary>SXA Partial and Page Design Basics</summary>
 <br />  
 
@@ -43,5 +42,3 @@ Add your *Header*, *Footer*, and *Metadata* *Partial Designs*, then click the sa
 *SXA Experience Editor Page Design Setup. You can select a page design here*
 
 Leave the *Home* Page alone, but set the *Page* design type to the *Page Design* you have previously created. Save the setting (upper right-hand corner), you should then see the header and footer automatically assigned to your page.
-
-</details>

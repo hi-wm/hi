@@ -1,4 +1,3 @@
-<details>
 <summary>Create Fixed Layouts with the Page Content Component</summary>
 <br />  
 
@@ -13,7 +12,3 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant* -->
-
-
-
-</details>

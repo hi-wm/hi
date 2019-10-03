@@ -33,7 +33,6 @@ Phew, you dodged a something by following directions well. Click the little blue
 A Site will share datasources with its tenant, but you will have control over theme and a virtual folder for the site will exist independent of the tenant. If you should ever need to delete your site, you can rihght-click on the site name in the folder tree and under *Scripts*, click the *Remove site* option. This will run a script that removes all of the folders which are specific to the site which you would like to remove. The *Are you sure you want to delete My Super Awesome Sitecore SXA Website?* wizard will launch to confirm your decision. If you are certain, you may click the blue *OK* button, if you would like to thank this wizard for saving you from making an egregious error, click the grey *Cancel* button, and the wizards disappearance will serve as acknowledgement of both your thanks and your error. There is a similar option available for Tenants that you wish to remove from your sitecore instance. Follow the above steps and meet the wizard.
 
 If you had deselected a module when running though any of the wizards you have met before *(either the tenant one-step wizard, or the site 4-tabbed wizard)* and would like to add a module to them, right-click on the name of the site or tenant and under the *Scripts* menu, there is a script called *Add Site module*. Click that. The Add site module wizard will appear to help you in your search to add modules. If you have made any custom modules for sitecore and placed them in your sitecore instance, they would be available in the add module wizard if you had not selected them when making a tenant or site.
-
 </details>
 <details>
 <summary>SXA Partial and Page Design Basics</summary>
@@ -80,7 +79,6 @@ Add your *Header*, *Footer*, and *Metadata* *Partial Designs*, then click the sa
 *SXA Experience Editor Page Design Setup. You can select a page design here*
 
 Leave the *Home* Page alone, but set the *Page* design type to the *Page Design* you have previously created. Save the setting (upper right-hand corner), you should then see the header and footer automatically assigned to your page.
-
 </details>
 <details>
 <summary>Rendering Variants - Part 1 - The Basics</summary>
@@ -136,7 +134,6 @@ Once you have created the partial design, drop the *Page Content* component into
 *SXA Experience Editor Rendering Variants Page Content Variant Insert Page Design Wizard*
 
 After giving your *Page Design* a name, in the next dialogue wizard that appears, you will have to assign the *Partial Designs* to your *Page Design*. Save that, then you will be able to associate your new *Page Design* with whatever type page needed, in this case *Blog Post*. Do that in the *Site Page Designs* menu at the top-center of the screen.
-
 </details>
 <details>
 <summary>Create Fixed Layouts with the Page Content Component</summary>
@@ -153,9 +150,6 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant* -->
-
-
-
 </details>
 <details>
 <summary>Creating and Working with Styles</summary>
@@ -172,9 +166,6 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant* -->
-
-
-
 </details>
 <details>
 <summary>The SXA Themes - Structure and Inheritence</summary>
@@ -191,9 +182,6 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant* -->
-
-
-
 </details>
 <details>
 <summary>Introduction to Responsive Grid Settings for Components</summary>
@@ -210,9 +198,6 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant* -->
-
-
-
 </details>
 <details>
 <summary>Configuring and Working with Shared Sites</summary>
@@ -229,9 +214,6 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
 *SXA Experience Editor Rendering Variants Page Content Variant* -->
-
-
-
 </details>
 </details>
 <br />

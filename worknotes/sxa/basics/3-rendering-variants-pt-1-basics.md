@@ -1,4 +1,3 @@
-<details>
 <summary>Rendering Variants - Part 1 - The Basics</summary>
 <br />  
 
@@ -52,5 +51,3 @@ Once you have created the partial design, drop the *Page Content* component into
 *SXA Experience Editor Rendering Variants Page Content Variant Insert Page Design Wizard*
 
 After giving your *Page Design* a name, in the next dialogue wizard that appears, you will have to assign the *Partial Designs* to your *Page Design*. Save that, then you will be able to associate your new *Page Design* with whatever type page needed, in this case *Blog Post*. Do that in the *Site Page Designs* menu at the top-center of the screen.
-
-</details>
