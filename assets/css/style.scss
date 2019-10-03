@@ -73,6 +73,8 @@ footer {
     text-align: center;
 }
 
+// La Croíx can styling
+
 .la-croix-can {
     width: 39px;
     height: 75px;
@@ -96,4 +98,16 @@ footer {
     &:hover {
         transform: none;
     }
+}
+
+// Image Captions
+
+p > img + em {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    padding-top: 20px;
+    display: inherit;
+    opacity: .7;
+    width: 60%;
 }
