@@ -6,9 +6,6 @@
 body {
     background-color: #ffffff;
 
-    & img {
-    max-width: 80%;
-    }
 }
 
 a {
@@ -105,6 +102,10 @@ footer {
 }
 
 // Images
+
+.markdown-body img {
+    max-width: 80%;
+}
 
 p > img {
     margin: 0 auto;
