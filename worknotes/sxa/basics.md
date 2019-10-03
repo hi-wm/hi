@@ -65,4 +65,11 @@ Once you have named your new page, you will be presented with options for your n
 ![alt text](assets/images/SXA-Experience-Editor-Page-Design-Window.png "SXA Experience Editor Page Design Window")
 *SXA Experience Editor Page Design Window*
 
+Add your *Header*, *Footer*, and *Metadata* *Partial Designs*, then click the save icon in the upper right-hand corner of the screen. Now, if you follow your website folder tree to; ```Tenant > *site_name* > Home > Page_#``` then right-click and select *Experience Editor*, you will be taken to the Experience Editor for that page.
+
+![alt text](assets/images/SXA-Experience-Editor-Page-Design-Setup.png "SXA Experience Editor Page Design Setup")
+*SXA Experience Editor Page Design Setup. You can select a page design here*
+
+
+
 </details>
