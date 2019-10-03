@@ -11,6 +11,12 @@ These are mostly notes related to ongoing projects
 <summary>October</summary>
 <br>
 
+10/3
+
+Well well well... I used up all my allocation for mwt by noon yesterday and then started in on ab sxa business. We had the ab stand-up this morning and I was the only one who had cleared my plate to start in on the SXA trainings... Today I reported in for the mwt standup that I had passed off my ticket and it was in a good place, but after a day with Stackla, guess who won? Stackla... Anyway, I wrote up a bunch more notes about the SXA training, that's are over on my Resources page. I also figured out how to use markdown_helper to organize (complicate) my work here a bit more. SXA is pretty WYSIWYG(y), and it is yet unclear how BED and FED will work together using this platform, but I hope it proves useful and worth all the trouble!
+
+---
+
 10/2
 
 *had to get out of Stackla and mwt. Only had half time this week for that and ab, so mwt is out for the week. Moving on to ab, started learning sxa thangs.*
