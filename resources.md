@@ -183,17 +183,19 @@ Using your new template, you can create new pages that have the type of your tem
 <summary>Creating and Working with Styles</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+*Styles can be used by both your Frontend Developers and your end users, Content Authors or Marketers*
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+Following the path ```sitecore > Content > *tenant_name* > *site_name* > Presentation > Styles``` you can configure your own styles. Inside of the path, you will find many directories related to the various components in sitecore. See the following photo for more information.
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts*
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Creating-Working-Styles-Individual-Definition.png "SXA Experience Editor Creating and Working with Styles, an Individual Style Definition")
+*SXA Experience Editor Creating and Working with Styles, an Individual Style Definition*
 
-If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Page Content* component into the main section of the blog post (find this component in the *PAGE CONTENT* section of available components on the right-hand side of the *Experience Editor*). By default, the *Page Content* component will use the first found rendering variant. To make a new *Rendering Variant* definition, check the screenshot below.
+Within the *Style Definition*, whatever is typed in the *Value* field will be the class name (see above *Value* background-color-dg). This *Style Definition* will now be available to apply to components when you are working on a page in the *Experience Editor*. Simply click the component you would like to apply the style to, when the component editor window appears, click *More* then *Edit component properties*
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
-*SXA Experience Editor Rendering Variants Page Content Variant* -->
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Creating-Working-Styles-Component-Styling.png "SXA Experience Editor Creating and Working with Styles, Styling a Component")
+*SXA Experience Editor Creating and Working with Styles, Styling a Component*
+
+From the above, you will be brought to a *Control Properties* wizard for the component you are working with. If you scroll down, you will find all of the style definitions that are available to the particular component you are working with.
 </details>
 <details>
 <summary>The SXA Themes - Structure and Inheritence</summary>
@@ -231,17 +233,6 @@ If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Pag
 <summary>Configuring and Working with Shared Sites</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
-
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
-
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts*
-
-If you open a Blog Post in the sitecore *Experience Editor*, you can drop a *Page Content* component into the main section of the blog post (find this component in the *PAGE CONTENT* section of available components on the right-hand side of the *Experience Editor*). By default, the *Page Content* component will use the first found rendering variant. To make a new *Rendering Variant* definition, check the screenshot below.
-
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Page-Content-Variant.png "SXA Experience Editor Rendering Variants Page Content Variant")
-*SXA Experience Editor Rendering Variants Page Content Variant* -->
 </details>
 </details>
 <br />
