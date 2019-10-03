@@ -33,7 +33,6 @@ In the *Builder* tab for the new template, add a section named *Content* then de
     </tr>
   </tbody>
 </table>
-<br/>
 
 Now that you have your new fixed layout, go to ```sitecore > Content > *tenant_name* > *site_name* > Home``` and right-click on *Home*. You should be able to click *Insert* and see your new fixed layout that was just created as an option when creating a new page for your site. Select the new fixed layout type and give your page a name. If everything has been correctly set up, you should now see your new page with the fields that were established above.
 
