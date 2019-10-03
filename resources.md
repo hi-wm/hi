@@ -153,10 +153,24 @@ In the *New Template* wizard, after you have given it a name, select the *Base t
 
 In the *Builder* tab for the new template, add a section named *Content* then define 2 additional fields below the new section name:
 
-| Name | Type |
-| :--- | ---: |
-| Summary | Multi-Line Text |
-| Publishdate | Date |
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Summary</td>
+      <td>Multi-Line Text</td>
+    </tr>
+    <tr>
+      <td>Publishdate</td>
+      <td>Date</td>
+    </tr>
+  </tbody>
+</table>
 </details>
 <details>
 <summary>Creating and Working with Styles</summary>
