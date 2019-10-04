@@ -245,6 +245,8 @@ Imagine for a moment that your client would like a theme just for Christmas. Don
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Theming-New-Site-Theme-Wizard.png "SXA Experience Editor Theming, New Site Theme Wizard")
 *SXA Experience Editor Theming, New Site Theme Wizard*
+
+After naming your new theme, you can just click next. The *New Site Theme* script will then finish up. The amount of time that the *New Site Theme* script takes to run is directly correlated to the processing power of your computer. Once hell has frozen over, your new theme will be somewhere... maybe ```... > Themes > *tenant_name* > *site_name*```. Now that you have your new theme, you can make all the required changes and the changes will only affect that theme! And 3 minutes of clicking around later... You can make all the required changes and the changes will only affect that theme! Seriously, there was nothing useful stated at the end of the video.
 </details>
 <details>
 <summary>Introduction to Responsive Grid Settings for Components</summary>
