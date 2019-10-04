@@ -24,3 +24,6 @@ Add another *Rich Text* component as above and repeat the steps to make it take 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Responsive-Grid-6-Col-Components.png "SXA Experience Editor Responsive Grid, these two Rich Text components have their columns set to 6 for devices Tablets and up")
 *SXA Experience Editor Responsive Grid, these two Rich Text components have their columns set to 6 for devices Tablets and up*
 
+If you would like to confirm that the column settings you have made are in fact working, open up the Chrome inspector and toggle the responsive view mode or resize your browser window and watch the magic unfold.
+
+The most important thing is to remember that you have 12 columns to work with.
