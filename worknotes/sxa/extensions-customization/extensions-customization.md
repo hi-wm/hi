@@ -1,0 +1,15 @@
+<details>
+@[:markdown](1-create-custom-sxa-module-social-feed.md)
+</details>
+<details>
+@[:markdown](2-custom-field-type-general-link-phone.md)
+</details>
+<details>
+@[:markdown](3-search-non-page-items.md)
+</details>
+<details>
+@[:markdown](4-nvelocity-extensions.md)
+</details>
+<details>
+@[:markdown](5-customize-xa-rte-profile.md)
+</details>

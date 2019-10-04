@@ -440,6 +440,65 @@ In Sitecore, most of the pages that display content can be rendered using *Rende
 </details>
 </details>
 <br />
+<details>
+<summary>SXA Extensions and Customization</summary>
+<details>
+<summary>Create Custom SXA Module - Social Feed</summary>
+<br />  
+
+<!-- *What are Rendering Variants and when should you use them?*
+
+In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
+*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+</details>
+<details>
+<summary>Custom Field Type General Link with Phone</summary>
+<br />  
+
+<!-- *What are Rendering Variants and when should you use them?*
+
+In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
+*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+</details>
+<details>
+<summary>Search Non Page Items in SXA</summary>
+<br />  
+
+<!-- *What are Rendering Variants and when should you use them?*
+
+In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
+*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+</details>
+<details>
+<summary>NVelocity Extensions</summary>
+<br />  
+
+<!-- *What are Rendering Variants and when should you use them?*
+
+In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
+*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+</details>
+<details>
+<summary>Customize the XA RTE Profile</summary>
+<br />  
+
+<!-- *What are Rendering Variants and when should you use them?*
+
+In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
+*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+</details>
+</details>
+<br />
 
 [Custom Component Build - Part 1 - Introduction](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Introduction)
 
