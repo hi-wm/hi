@@ -15,5 +15,5 @@ Within the *Style Definition*, whatever is typed in the *Value* field will be th
 
 From the above, you will be brought to a *Control Properties* wizard for the component you are working with. If you scroll down, you will find all of the style definitions that are available to the particular component you are working with.
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Creating-Working-Styles-Component-Styling-Wizard.png "SXA Experience Editor Creating and Working with Styles, Styling a Component Wizard")
-*SXA Experience Editor Creating and Working with Styles, Styling a Component Wizard*
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Creating-Working-Styles-Component-Styling-Wizard.png "SXA Experience Editor Creating and Working with Styles, Component Control Properties Wizard")
+*SXA Experience Editor Creating and Working with Styles, Component Control Properties Wizard*
