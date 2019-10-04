@@ -49,6 +49,8 @@ Here are some Frontend Development resources that have proven useful
 
 [Charles - Web Debugging Proxy Application](https://www.charlesproxy.com)
 
+[CSS Architecture](https://philipwalton.com/articles/css-architecture/)
+
 ## Ewwww SVG
 
 *read in order*
