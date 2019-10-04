@@ -24,3 +24,21 @@ Once you have made the difficult choices with the export site theme wizard, clic
 
 ![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Theming-Export-Site-Theme-Exporting.gif "SXA Experience Editor Theming, Export Site Theme Exporting Animation")
 *SXA Experience Editor Theming, Export Site Theme Exporting Animation for your enjoyment*
+
+After the wizard is done, you can download your .zip file. *If you chose that option in the intial setup* Abruptly moving on, let's talk about *gulp* files. The *gulp* is a task runner. Read more about [*gulp*](https://gulpjs.com/). In sitecore, and any project that uses *gulp*, once configured, there are various tasks that do things.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Theming-Export-Site-Theme-Gulp.png "SXA Experience Editor Theming, Export Site Theme Gulp task list")
+*SXA Experience Editor Theming, Export Site Theme Gulp task list*
+
+In the *sass* folder, there are *sass* files. In passing, we know that the *sass* will be handled by the *gulp*. In the *fonts* folder, there are fonts. In the *images* folder, there are images. And in the *styles* folder, there are styles.
+
+Imagine for a moment that your client would like a theme just for Christmas. Don't overwrite your style files! Make a new site theme! Right-click on your site name in the folder tree, then follow ```Scripts > New Site Theme```. The *New Site Theme* script will run and eventually open the *Create a new SXA site theme.* wizard. Tell the wizard all of the things.
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Theming-New-Site-Theme.png "SXA Experience Editor Theming, New Site Theme")
+*SXA Experience Editor Theming, New Site Theme*
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Theming-New-Site-Theme-Script-Running.png "SXA Experience Editor Theming, New Site Theme Script Running")
+*SXA Experience Editor Theming, New Site Theme Script Running*
+
+![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Theming-New-Site-Theme-Wizard.png "SXA Experience Editor Theming, New Site Theme Wizard")
+*SXA Experience Editor Theming, New Site Theme Wizard*
