@@ -11,6 +11,11 @@ Here are some Frontend Development resources that have proven useful
 @[:markdown](worknotes/sxa/basics/basics.md)
 </details>
 <br />
+<details>
+<summary>SXA Rendering Variants</summary>
+@[:markdown](worknotes/sxa/rendering-variants/rendering-variants.md)
+</details>
+<br />
 
 [Custom Component Build - Part 1 - Introduction](https://www.nishtechinc.com/en/Blog/2018/November/Nuptial-Experiment-Introduction)
 
