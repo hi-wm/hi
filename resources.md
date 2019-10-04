@@ -383,12 +383,13 @@ If there are additional fields available from the data source, i.e. an image or 
 <summary>Part 3 - Querying Content</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+*Querying Content in Rendering Variants*
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+We've covered passing through links to get content from content items that are linked to the items that are being rendered. But not all links are rendered this way. Sometimes there needs to be field comparison to get some related content to the render. That is what we will be learning here. To build this out, there has been an additional field added to *Page* ```... > Templates > Project > Tenant > Page```. The field is named *RelatedProducts* of type *Treelist* with a dynamic source, in this case *query:$home/Products*.
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+![alt text](assets/images/sxa-rendering-variants/SXA-Rendering-Variants-Querying-Content-Dynamic-Query-Field.png "SXA Rendering Variants Querying Content, dynamic query field with name, type, and source highlighted")
+*SXA Rendering Variants Querying Content, dynamic query field with name, type, and source highlighted*
+
 </details>
 <details>
 <summary>Part 4 - Placeholders and Placeholder Restrictions</summary>
