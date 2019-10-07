@@ -1,7 +1,7 @@
 <summary>Part 6 - Responsive Images</summary>
 <br />  
 
-Link to YouTube video for this section [SXA Rendering Variants Part 5 - Responsive Images](https://youtu.be/22IXpZtG1u8)
+Link to YouTube video for this section [SXA Rendering Variants Part 6 - Responsive Images](https://youtu.be/22IXpZtG1u8)
 
 *SXA can render through a simnple image rendering field by providing the field of type that is image*
 
