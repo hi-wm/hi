@@ -1,9 +1,12 @@
 <summary>Part 4 - Placeholders and Placeholder Restrictions</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+Link to YouTube video for this section [SXA Rendering Variants Part 4 - Placeholders and Placeholder Restrictions](https://youtu.be/deeYre6u9_E)
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+*Querying Content in Rendering Variants*
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+![alt text](assets/images/sxa-rendering-variants/SXA-Rendering-Variants-Querying-Content-Query-Structure.png "SXA Rendering Variants Querying Content, this how the rendering variant for a query is structured in the project folder tree")
+*SXA Rendering Variants Querying Content, this how the rendering variant for a query is structured in the project folder tree*
+
+Here is a link to the sitecore documentation about how to [Set Placeholder Restrictions](https://doc.sitecore.com/developers/sxa/17/sitecore-experience-accelerator/en/set-placeholder-restrictions.html)  
+And here is another link from a sitecore MVP about the [multiple ways of using SXA placeholder settings](https://www.linkedin.com/pulse/sitecore-tip-22-multiple-ways-using-sxa-placeholder-emmerzaal/)
