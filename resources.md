@@ -491,12 +491,18 @@ Link to YouTube video for this section [SXA Rendering Variants Part 7 - Tokens](
 
 *Let's talk about rendering variant tokens*
 
-<!-- Out of the box, the image rendering in sitecore does not provide responsive image field rendering, but it can be set up! Within rendering variants, there is an *Image* type. If you right-click on *Image*, you can set up a *Responsive Image* rendering variant!
+*Tokens* are one of the options you will see when you try to insert a *Rendering Variant*. Tokens are useful for both editors and developers. There are situations where you don't want to render just a field, but you need to do some transformation on the values that are available in the sitecore items. *Tokens* allow you to developers to provide you with this transformation. The developers should provide a list of the available tokens. Tokens that are already in sitecore by default are; $Size, $FileTypeIcon, $id, $name
 
-![alt text](assets/images/sxa-rendering-variants/SXA-Rendering-Variants-Responsive-Images-Setup.png "SXA Rendering Variants Responsive Images, this is what it looks like to set up a responsive image rendering variant in sitecore")
-*SXA Rendering Variants Responsive Images, this is what it looks like to set up a responsive image rendering variant in sitecore*
+* $Size - Renders the size of a media item
+* $FileTypeIcon - Renders a file type icon
+* $id - Renders the id of an item
+* $name - Renders the name of an item
 
-The settings in *Sizes* will be determined by UX / FED. Under the hood, sitecore is generating the correct syntax to markup the page to render images responsively. [Check out this link for more information about responsive images](https://alistapart.com/article/using-responsive-images-now). Sitecore will only download the image according to the breakpoint as defined by the source set of images. -->
+![alt text](assets/images/sxa-rendering-variants/SXA-Rendering-Variants-Tokens-Insert.png "SXA Rendering Variants Tokens, insert a token to a rendering variant")
+*SXA Rendering Variants Tokens, insert a token to a rendering variant*
+
+![alt text](assets/images/sxa-rendering-variants/SXA-Rendering-Variants-Tokens-Example.png "SXA Rendering Variants Tokens, here is an example of a rendering variant set up with tokens")
+*SXA Rendering Variants Tokens, here is an example of a rendering variant set up with tokens*
 
 Here is sitecores documentation about how to [Create a Custom Token for a Rendering Variant](https://doc.sitecore.com/developers/sxa/18/sitecore-experience-accelerator/en/create-a-custom-token-for-a-rendering-variant.html)
 </details>
