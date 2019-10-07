@@ -383,7 +383,7 @@ If there are additional fields available from the data source, i.e. an image or 
 <summary>Part 3 - Querying Content</summary>
 <br />  
 
-[SXA Rendering Variants Part 3 - Querying Content](https://youtu.be/BsamkDxp_dI)
+Link to YouTube video for this section [SXA Rendering Variants Part 3 - Querying Content](https://youtu.be/BsamkDxp_dI)
 
 *Querying Content in Rendering Variants*
 
@@ -407,6 +407,8 @@ Now comes the fun part, and the purpose of this chapter on rendering variants, a
 *SXA Rendering Variants Querying Content, this how the rendering variant for a query is structured in the project folder tree*
 
 If you do the query right, you will get the right results. And... the above query does not get the intended results. It grabs all children when it should be more discriminate. Let's update that query to ```query:./*[@@templatename!='Page Data']```. That query can be found within sitecore, so if you don't remember the syntax or the precise query, simply searching for children at the top of the folder tree will reveal all items that refer to children and in those results you can find at least one item that has the aforementioned query already built. If you need more complex queries, you are SOL. But that query will get the children and leave out the *Page Data*, which is something that you may not need.
+
+The remaining half of the video (from ~13:00) repeats the above steps, but builds another query based on *Taggable* content using a *token*. The entirety of this process is outlined in the link below.
 
 Here is a link to the sitecore documentation about [Using a Query to Render Items](https://doc.sitecore.com/developers/sxa/18/sitecore-experience-accelerator/en/walkthrough--using-a-query-to-render-items.html)
 </details>
