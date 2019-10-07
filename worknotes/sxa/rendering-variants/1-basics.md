@@ -1,6 +1,8 @@
 <summary>Part 1 - The Basics</summary>
 <br />  
 
+Link to YouTube video for this section [SXA Rendering Variants Part 1 - The Basics](https://youtu.be/HyMCJ0zhbK8)
+
 *What are Rendering Variants and when should you use them?*
 
 In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.

@@ -310,6 +310,8 @@ Another aspect of shared sites is that their *Page Designs* and *Partial Designs
 <summary>Part 1 - The Basics</summary>
 <br />  
 
+Link to YouTube video for this section [SXA Rendering Variants Part 1 - The Basics](https://youtu.be/HyMCJ0zhbK8)
+
 *What are Rendering Variants and when should you use them?*
 
 In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
@@ -364,6 +366,8 @@ After giving your *Page Design* a name, in the next dialogue wizard that appears
 <details>
 <summary>Part 2 - Working with References and Links</summary>
 <br />  
+
+Link to YouTube video for this section [SXA Rendering Variants Part 2 - Working with References and Links](https://youtu.be/rrz-dKYjHp0)
 
 Following up on the previous *Rendering Variants* *Blog Post* has been extended. The Author / Single-Line Text has been subbed for Authors / Multiroot Treelist with a dynamic source.
 
@@ -510,12 +514,21 @@ Here is sitecores documentation about how to [Create a Custom Token for a Render
 <summary>Part 8 - Basics Revisited</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+Link to YouTube video for this section [SXA Rendering Variants Part 8 - Basics Revisited](https://youtu.be/VwfcV6JLW1w)
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+*Let's revisit some basics of rendering variants*
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+In the first *Rendering Variants - Basics* video, the rendering variant types were not covered well, so let's do that now.
+
+* Section - A wrapper that allows you to put additional elements inside of them. It will wrap any elements in a tag that you get to specify, it can have styles applied to it, and additional attributes.
+* Field - The field will render your content according to the type itself i.e. an image field will render an image, rich-text will allow you to edit content, a title will render text
+* Text - Variant text is for specifying text constants, i.e. *Author*
+* Date - Will render the date and there are many date formats available
+* HTML Tag - A set of self-closing HTML tags that cannot contain any other tags within it
+
+Most of the rendering variant types have the ability to add *Data attributes* which will be added (inline) to the HTML Tag that is specified for the rendering variant. Some rendering variant types also have fields for Prefix or Suffix content which allows additional content to be defined before or after the element.
+
+[Here is the complete list of Rendering Variants and what they do and are used for](https://doc.sitecore.com/developers/sxa/17/sitecore-experience-accelerator/en/create-a-rendering-variant.html)
 </details>
 </details>
 <br />

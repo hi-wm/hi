@@ -1,6 +1,8 @@
 <summary>Part 2 - Working with References and Links</summary>
 <br />  
 
+Link to YouTube video for this section [SXA Rendering Variants Part 2 - Working with References and Links](https://youtu.be/rrz-dKYjHp0)
+
 Following up on the previous *Rendering Variants* *Blog Post* has been extended. The Author / Single-Line Text has been subbed for Authors / Multiroot Treelist with a dynamic source.
 
 ![alt text](assets/images/sxa-rendering-variants/SXA-Rendering-Variants-Working-References-Links-Dynamic-Source.png "SXA Rendering Variants Working with References and Links Dynamic Source Example ")
