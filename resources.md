@@ -587,9 +587,7 @@ The example scenario is a few PDF items that aren't able to be included in searc
 
 * Update the sxacontent computed field in ```App_Config/Include/Z.Foundation.Overrides/Sitecore.XA.Foundation.Search.Solr.config``` to use this aggregator ```TAMM.XA.Foundation.Search``` instead of the default
 
-* ```html
-<field fieldName="sxacontent" returnType="textCollection" type="TAMM.XA.Foundation.Search.AggregatedContent, TAMM.XA.Foundation.Search"> <mediaIndexing ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/mediaIndexing"/></field>
-```
+* ```<field fieldName="sxacontent" returnType="textCollection" type="TAMM.XA.Foundation.Search.AggregatedContent, TAMM.XA.Foundation.Search"> <mediaIndexing ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/mediaIndexing"/></field>```
 
 This is another backend heavy section. Watch the video
 </details>
