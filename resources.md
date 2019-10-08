@@ -577,12 +577,21 @@ Most of what is done in this particular video is copying the code for the *Gener
 <summary>Search Non Page Items in SXA</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+Link to YouTube video for this section [Search Non Page Items in SXA](https://youtu.be/sonYfC9I8eU)
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+*The problem with SXA solo search is that it only searches content that's coming from pages or media types*
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+The example scenario is a few PDF items that aren't able to be included in search results. The proposed solution is as follows:
+
+* Create a new search aggregator ```TAMM.XA.Foundation.Search```
+
+* Update the sxacontent computed field in ```App_Config/Include/Z.Foundation.Overrides/Sitecore.XA.Foundation.Search.Solr.config``` to use this aggregator ```TAMM.XA.Foundation.Search``` instead of the default
+
+* ```html
+<field fieldName="sxacontent" returnType="textCollection" type="TAMM.XA.Foundation.Search.AggregatedContent, TAMM.XA.Foundation.Search"> <mediaIndexing ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/mediaIndexing"/></field>
+```
+
+This is another backend heavy section. Watch the video
 </details>
 <details>
 <summary>NVelocity Extensions</summary>
