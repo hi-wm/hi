@@ -565,12 +565,13 @@ And here's a nice article following the flow of [creating a custom SXA component
 <summary>Custom Field Type General Link with Phone</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+Link to YouTube video for this section [Custom Field Type General Link with Phone](https://youtu.be/k8SsfV9DhoU)
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+*Add support for additional link types in custom fields*
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+This section is quite backend heavy, so here's another link to [read all about creating a custom field type](https://ggullentops.blogspot.com/2019/04/sitecore-sxa-custom-rendering-variant-translation.html).
+
+Most of what is done in this particular video is copying the code for the *General Link* field type and adding additional fields to handle phone numbers. The presenter recommends looking through the code and duplicating the patterns within to add your custom field types. The link above dives into the same.
 </details>
 <details>
 <summary>Search Non Page Items in SXA</summary>
