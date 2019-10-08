@@ -51,6 +51,8 @@ Here are some Frontend Development resources that have proven useful
 
 [CSS Architecture](https://philipwalton.com/articles/css-architecture/)
 
+[Objects in Space](https://medium.com/objects-in-space/objects-in-space-f6f404727) - A style-guide for modular SASS development using SMACSS and BEM
+
 ## Ewwww SVG
 
 *read in order*
