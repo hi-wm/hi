@@ -538,12 +538,16 @@ Most of the rendering variant types have the ability to add *Data attributes* wh
 <summary>Create Custom SXA Module - Social Feed</summary>
 <br />  
 
-<!-- *What are Rendering Variants and when should you use them?*
+Link to YouTube video for this section [Create Custom SXA Module - Social Feed](https://youtu.be/avuVlJ34BwU)
 
-In Sitecore, most of the pages that display content can be rendered using *Rendering Variants*. In your project folder tree, look at ```sitecore > Templates > Project > Tenant > Blog Post```. Here you can *Build* a template that can be used to structure your blog posts.
+*It's always better to clone an existing component rather than using it*
 
-![alt text](assets/images/sxa-basics/SXA-Experience-Editor-Rendering-Variants-Blog-Post-Template.png "SXA Experience Editor Rendering Variants Blog Post Template")
-*SXA Experience Editor Rendering Variants Blog Post Template. Set up the fields needed for blog posts* -->
+It is recommended to clone an existing component because there is a folder structure to a component and it is easier to modify a clone than to make all of the required folders and files from scratch. The component to copy for this tutorial is the *Promo* component. Find the *Promo* component in sitecores folder tree, right-click the name, then ```Scripts > Clone Rendering```.
+
+![alt text](assets/images/sxa-rendering-variants/SXA-Extensions-Customization-Custom-Module-Clone-Existing.gif "SXA Extensions and Customization, clone an existing component and use the wizard to configure the component clone")
+*SXA Extensions and Customization, clone an existing component and use the wizard to configure the component clone*
+
+[Here is the complete list of Rendering Variants and what they do and are used for](https://doc.sitecore.com/developers/sxa/17/sitecore-experience-accelerator/en/create-a-rendering-variant.html)
 </details>
 <details>
 <summary>Custom Field Type General Link with Phone</summary>
