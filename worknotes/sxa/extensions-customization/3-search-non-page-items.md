@@ -13,4 +13,4 @@ The example scenario is a few PDF items that aren't able to be included in searc
 
 * ```<field fieldName="sxacontent" returnType="textCollection" type="TAMM.XA.Foundation.Search.AggregatedContent, TAMM.XA.Foundation.Search"> <mediaIndexing ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/mediaIndexing"/></field>```
 
-This is another backend heavy section. Watch the video
+This is another backend heavy section. [Watch the video](https://youtu.be/sonYfC9I8eU)
