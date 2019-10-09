@@ -42,7 +42,13 @@ Here are some Frontend Development resources that have proven useful
 
 ## Random Junk & Garbage
 
-[ES6 In Depth - Brought to you by Mozilla](https://hacks.mozilla.org/category/es6-in-depth/)
+A Collection of [UI Design Tips](https://twitter.com/i/moments/994601867987619840)
+
+Make your code snippet screenshots look pretty with [Carbon](https://carbon.now.sh/)
+
+[A Script](https://github.com/minamarkham/formation) to set up a new Laptop with all the Things
+
+[ES6 In Depth](https://hacks.mozilla.org/category/es6-in-depth/) - Brought to you by Mozilla
 
 [Add or Remove classes on things w/ Jquery?](http://jsfiddle.net/ak9Lnrjj/10/)  
 *could be a fix for slick carousel variable height slides. add a class that makes all the other slides have```css display: none;```* 
@@ -64,3 +70,7 @@ Here are some Frontend Development resources that have proven useful
 [Data URI Generator](https://dopiaza.org/tools/datauri/index.php)
 
 [URL Encoder](https://www.urlencoder.org/)
+
+## JavaScript
+
+[Essential JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Complete Book
