@@ -16,9 +16,9 @@ Here are some Frontend Development resources that have proven useful
  
 [Even more Lixil-Related SXA Notes](https://horizontal.atlassian.net/wiki/spaces/LWTA/pages/814514694/SXA)
  
-#Some other notes for UX/Content teams:
+# Some other notes for UX/Content teams:
  
-##What is SXA?
+## What is SXA?
 SXA (Sitecore Experience Accelerator) is a module developed by Sitecore and comes with Sitecore 9.0 and up.
 [Features](https://doc.sitecore.com/users/sxa/17/sitecore-experience-accelerator/en/introducing-sitecore-experience-accelerator.html)
 Tenants and sites (Set up tenants, multisites, security roles)
@@ -31,7 +31,7 @@ Share content and presentation (allows you to control content from one central l
 Asset Optimizer (enable optimization on assets such as CSS/JS for improved site performance)
 Data modeling (ability to model and access data via JSON API)
  
-##Why should we use it?
+## Why should we use it?
 SXA helps separate structure from design so designers, developers, and content authors can work in parallel to build, deploy, and maintain sites.
 i.e. 
 BED configures data and templates while
@@ -39,15 +39,15 @@ FED works on theming
 Content author can enter content during this time and/or
 UXD could assemble wireframes for initial layout and components
  
-##How have we used it on Lixil?
+## How have we used it on Lixil?
 We’ve spun up a base site with a base theme that is rolled out to all brand themes. Each brand theme then has its own custom brand CSS, which also inherits from the base theme. All components are also available across sites. Lixil is multisite and will be comprised of 4-5 brand sites down the road.
  
-##What challenges has it solved for us?
+## What challenges has it solved for us?
 Faster delivery - Using OOTB components reduces time of development.
 Reusability - Has sped up production via reuse of components, layouts and templates. 
 Commerce - Using SXA Commerce Storefront theme which speeds up development as well.
  
-##What challenges do we still face from a FED perspective?
+## What challenges do we still face from a FED perspective?
 OOTB components don’t always come with all the features we need, so we have create and rely on variants to extend the rendering. This requires some extra dev (BED config & export, FED UI work).
 Requires a lot of collaboration and communication between all teams to make decisions, implement, and validate.
 Things that are not available:
@@ -73,16 +73,16 @@ Make sure the component structure follows Bootstrap grid structure. i.e.
 ```
 Add css class names to variants so FED can use this css to style them. Follow component naming convention as defined in functional requirements for consistency.
  
-##What does UX need to know to get started?
+## What does UX need to know to get started?
 Kathryn Deming and Lisa Albinson from the Minneapolis UXD team are great resources.
-Get familiar with [OOTB components/rendering variants](https://doc.sitecore.com/users/sxa/17/sitecore-experience-accelerator/en/the-sxa-renderings-and-rendering-variants.html)
-Check out the Lixil component requirements. Many are based on OOTB components which we’ve created variants for.  [Check it out](https://horizontal.atlassian.net/wiki/spaces/LWTA/pages/811599681/Components+Overview)
+Get familiar with [OOTB components/rendering variants](https://doc.sitecore.com/users/sxa/17/sitecore-experience-accelerator/en/the-sxa-renderings-and-rendering-variants.html).
+Check out the Lixil component requirements. Many are based on OOTB components which we’ve created variants for.  [Check it out](https://horizontal.atlassian.net/wiki/spaces/LWTA/pages/811599681/Components+Overview)!
  
-##Resources
+## Resources
 [Official Sitecore SXA Documentation](https://doc.sitecore.com/developers/sxa/17/sitecore-experience-accelerator/en/index-en.html)
 [Lixil Content Guides](https://horizontal.atlassian.net/wiki/spaces/LWTA/pages/814711176/Release+Notes+Content+Guides )
 
-Note: Use the links in the left hand nav (instead of body conten on this page) to see individual content guides per component
+```Note: Use the links in the left hand nav (instead of body conten on this page) to see individual content guides per component```
 </details>
 <br />
 <details>
