@@ -8,6 +8,8 @@ Here are some Frontend Development resources that have proven useful
 
 <details>
 <summary>Horizontal SXA FED / BED Findings</summary>
+<br />  
+
 [Lixil-Related FED Findings](https://horizontal.atlassian.net/wiki/spaces/LWTA/pages/800718849/Lixil+-+Bootstrap+SXA+Learnings+and+Findings)
  
 [Lixil-Related BED Findings](https://horizontal.atlassian.net/wiki/spaces/LWTA/pages/802652352/SXA+POC+Findings)
@@ -82,7 +84,7 @@ Check out the Lixil component requirements. Many are based on OOTB components wh
 
 Note: Use the links in the left hand nav (instead of body conten on this page) to see individual content guides per component
 </details>
-
+<br />
 <details>
 <summary>SXA Basics</summary>
 <details>

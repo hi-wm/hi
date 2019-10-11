@@ -10,7 +10,7 @@ Here are some Frontend Development resources that have proven useful
 <summary>Horizontal SXA FED / BED Findings</summary>
 @[:markdown](worknotes/sxa/hztl-sxa-fed-bed-findings.md)
 </details>
-
+<br />
 <details>
 <summary>SXA Basics</summary>
 @[:markdown](worknotes/sxa/basics/basics.md)
