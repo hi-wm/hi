@@ -7,6 +7,11 @@ Here are some Frontend Development resources that have proven useful
 ## Sitecore Experience Accelerator
 
 <details>
+<summary>Horizontal SXA FED / BED Findings</summary>
+@[:markdown](worknotes/sxa/hztl-sxa-fed-bed-findings.md)
+</details>
+
+<details>
 <summary>SXA Basics</summary>
 @[:markdown](worknotes/sxa/basics/basics.md)
 </details>
